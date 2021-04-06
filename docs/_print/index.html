@@ -102,7 +102,7 @@ if (!doNotTrack) {
     "publisher":{
         "@type":"Organization",
         "name":"KJ",
-        "url":"https:\/\/hugo-for-newbie.kejyun.com\/",
+        "url":"https:\/\/hugo-for-newbie.kejyun.com",
         "logo":{
             "@type":"ImageObject",
             "url":"https:\/\/hugo-for-newbie.kejyun.com\/images\/featured-background.png",
@@ -149,23 +149,23 @@ if (!doNotTrack) {
 		"accountablePerson": {
 			"@type": "Person",
 			"name": "KeJyun",
-			"url": "https:\/\/hugo-for-newbie.kejyun.com\/"
+			"url": "https:\/\/hugo-for-newbie.kejyun.com"
 		},
 		"author": {
 			"@type": "Person",
 			"name": "KeJyun",
-			"url": "https:\/\/hugo-for-newbie.kejyun.com\/"
+			"url": "https:\/\/hugo-for-newbie.kejyun.com"
 		},
 		"creator": {
 			"@type": "Person",
 			"name": "KeJyun",
-			"url": "https:\/\/hugo-for-newbie.kejyun.com\/"
+			"url": "https:\/\/hugo-for-newbie.kejyun.com"
 		},
 		
 		"publisher": {
 			"@type": "Organization",
 			"name": "KJ",
-			"url": "https:\/\/hugo-for-newbie.kejyun.com\/",
+			"url": "https:\/\/hugo-for-newbie.kejyun.com",
 			"logo": {
 				"@type": "ImageObject",
 				"url": "https:\/\/hugo-for-newbie.kejyun.com\/images\/featured-background.png",
@@ -202,6 +202,12 @@ if (!doNotTrack) {
 
 
 
+
+
+	
+	
+	
+
 	
 	
 	
@@ -228,7 +234,7 @@ if (!doNotTrack) {
 			"@type": "ListItem",
 				"position": 1,
 				"item": {
-					"@id": "https:\/\/hugo-for-newbie.kejyun.com\/",
+					"@id": "https:\/\/hugo-for-newbie.kejyun.com",
 					"name": "Home"
 				}
 		},
@@ -240,11 +246,11 @@ if (!doNotTrack) {
 					"@type": "ListItem",
 					"position":  2 ,
 					"item": {
-						"@id": "m\/\/docs",
+						"@id": "https:\/\/hugo-for-newbie.kejyun.co\/\/docs",
 						"name": "Docs"
 					}
 				}
-				
+				, 
 			
 		
 	]
@@ -1041,13 +1047,103 @@ Var is {{ $var }}
     
 	<h1 id="pg-62125bba6479ac8ecafc17ac9c2877c4">4.2 - 邏輯運算</h1>
     <div class="lead">Hugo 可以自訂頁面顯示不同的資料，所以可以根據頁面的邏輯不同去顯示不同的資料，在設計樣板時可以透過這個邏輯去做資料的運算及顯示處理</div>
-	<h2 id="比較">比較</h2>
+	<h2 id="字串處理">字串處理</h2>
+<h3 id="replace-取代httpsgohugoiofunctionsreplace"><a href="https://gohugo.io/functions/replace/">replace 取代</a></h3>
+<blockquote>
+<p>replace INPUT OLD NEW [LIMIT]</p>
+</blockquote>
+<blockquote>
+<p>replace (原始字串) (搜尋的字串) (取代的字串) [最多取代次數]</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 將 o 取代成 u，最多取代 2 次 --&gt;</span>
+{{ replace &#34;hugo hugo hugo&#34; &#34;o&#34; &#34;u&#34; 2 }}
+<span style="color:#8f5902;font-style:italic">&lt;!-- 結果: &#34;hugu hugu hugo&#34; --&gt;</span>
+</code></pre></div><h3 id="len-字串長度httpsgohugoiofunctionslen"><a href="https://gohugo.io/functions/len/">len 字串長度</a></h3>
+<blockquote>
+<p>len INPUT</p>
+</blockquote>
+<blockquote>
+<p>len (原始字串)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 計算字串 &#34;hugo&#34; 長度 --&gt;</span>
+{{ len &#34;hugo&#34; }}
+<span style="color:#8f5902;font-style:italic">&lt;!-- 結果: 4 --&gt;</span>
+</code></pre></div><h3 id="split-透過指定字元拆解字串成陣列httpsgohugoiofunctionssplit"><a href="https://gohugo.io/functions/split/">split 透過指定字元拆解字串成陣列</a></h3>
+<blockquote>
+<p>split STRING DELIM</p>
+</blockquote>
+<blockquote>
+<p>split (原始字串) (指定拆解字元)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 將字串「tag1,tag2,tag3」透過「,」字元拆解成陣列 --&gt;</span>
+{{split &#34;tag1,tag2,tag3&#34; &#34;,&#34; }}
+<span style="color:#8f5902;font-style:italic">&lt;!-- 結果: [&#34;tag1&#34; &#34;tag2&#34; &#34;tag3&#34;] --&gt;</span>
+</code></pre></div><h3 id="slice-將指定資料轉換成陣列httpsgohugoiofunctionsslice"><a href="https://gohugo.io/functions/slice/">slice 將指定資料轉換成陣列</a></h3>
+<blockquote>
+<p>slice ITEM&hellip;</p>
+</blockquote>
+<blockquote>
+<p>slice (資料列&hellip;)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 將「&#34;hugo&#34; &#34;static&#34; &#34;site&#34; &#34;generator&#34;」字串資料列轉換成陣列 --&gt;</span>
+{{ slice &#34;hugo&#34; &#34;static&#34; &#34;site&#34; &#34;generator&#34;) }}
+<span style="color:#8f5902;font-style:italic">&lt;!-- 結果: [hugo static site generator] --&gt;</span>
+</code></pre></div><h2 id="比較">比較</h2>
 <h3 id="lt-小於">lt 小於</h3>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ lt 1 2 }}
-<span style="color:#8f5902;font-style:italic">&lt;!-- 列印 true (i.e., 1 小於 2 為 true) --&gt;</span>
+<blockquote>
+<p>lt INTEGER_1 INTEGER_2</p>
+</blockquote>
+<blockquote>
+<p>lt (整數1) (整數2)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 列印 true (i.e., 1 小於 2 為 true) --&gt;</span>
+{{ lt 1 2 }}
 </code></pre></div><h3 id="ge-大於等於">ge 大於等於</h3>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ if ge 10 5 }}true{{ end }}
-<span style="color:#8f5902;font-style:italic">&lt;!-- 列印 true (i.e., 10 大於 5 為 true) --&gt;</span>
+<blockquote>
+<p>gt INTEGER_1 INTEGER_2</p>
+</blockquote>
+<blockquote>
+<p>gt (整數1) (整數2)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 列印 true (i.e., 10 大於 5 為 true) --&gt;</span>
+{{ if ge 10 5 }}true{{ end }}
+</code></pre></div><h2 id="math-數學運算">Math 數學運算</h2>
+<h3 id="add-加法">add 加法</h3>
+<blockquote>
+<p>add INTEGER_1 INTEGER_2</p>
+</blockquote>
+<blockquote>
+<p>add (整數1) (整數2)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 1 + 2 = 3 --&gt;</span>
+{{add 1 2}}
+</code></pre></div><h3 id="sub-減法">sub 減法</h3>
+<blockquote>
+<p>sub INTEGER_1 INTEGER_2</p>
+</blockquote>
+<blockquote>
+<p>sub (整數1) (整數2)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 3 - 2 = 1 --&gt;</span>
+{{sub 3 2}}
+</code></pre></div><h3 id="mul-乘法">mul 乘法</h3>
+<blockquote>
+<p>mul INTEGER_1 INTEGER_2</p>
+</blockquote>
+<blockquote>
+<p>mul (整數1) (整數2)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 2 x 3 = 6 --&gt;</span>
+{{mul 2 3}}
+</code></pre></div><h3 id="div-除法">div 除法</h3>
+<blockquote>
+<p>div INTEGER_1 INTEGER_2</p>
+</blockquote>
+<blockquote>
+<p>div (整數1) (整數2)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#8f5902;font-style:italic">&lt;!-- 6 / 3 = 2 --&gt;</span>
+{{div 6 3}}
 </code></pre></div><h2 id="參考資料">參考資料</h2>
 <ul>
 <li><a href="https://gohugo.io/templates/introduction/">Introduction to Hugo Templating | Hugo</a></li>
