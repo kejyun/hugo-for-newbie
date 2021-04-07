@@ -47,8 +47,8 @@ if (!doNotTrack) {
 
 
 
-<link rel="preload" href="/scss/main.min.085431b15c07cb87a27057f538b0190cb07a3ed2cc7a08d00d72ea1565f5d655.css" as="style">
-<link href="/scss/main.min.085431b15c07cb87a27057f538b0190cb07a3ed2cc7a08d00d72ea1565f5d655.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.2fbc9128320398880ebd6896664b57776242fa0bebf8f540c54b524a38443e77.css" as="style">
+<link href="/scss/main.min.2fbc9128320398880ebd6896664b57776242fa0bebf8f540c54b524a38443e77.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -60,8 +60,6 @@ if (!doNotTrack) {
   src="https://unpkg.com/lunr@2.3.8/lunr.min.js"
   integrity="sha384-vRQ9bDyE0Wnu+lMfm57BlYLO0/XauFuKpVsZPs7KEDwYKktWi5+Kz3MP8++DFlRY"
   crossorigin="anonymous"></script>
-
-
 
 
 
@@ -380,7 +378,20 @@ if (!doNotTrack) {
 		</ul>
 	</div>
 	<div class="navbar-nav d-none d-lg-block">
-<input type="search" class="form-control td-search-input" placeholder="&#xf002 搜尋" aria-label="搜尋" autocomplete="off">
+
+
+
+<input
+  type="search"
+  class="form-control td-search-input"
+  placeholder="&#xf002; 搜尋"
+  aria-label="搜尋"
+  autocomplete="off"
+  
+  data-offline-search-index-json-src="/offline-search-index.a89cccfd13854ab8f63bbb2e28d26288.json"
+  data-offline-search-base-href="/"
+  data-offline-search-max-results="25"
+>
 
 </div>
 </nav>
@@ -437,6 +448,22 @@ if (!doNotTrack) {
     
 	
 <li>2: <a href="#pg-b1a0d7427903eb01a7b3df876459b426">樣板</a></li>
+
+
+    
+  
+    
+    
+	
+<li>3: <a href="#pg-f24efecd26e24c6c1b72bdf863bf76bd">客製化 CSS</a></li>
+
+
+    
+  
+    
+    
+	
+<li>4: <a href="#pg-ea52ecff62f79923fe8c7532ddfa2114">搜尋</a></li>
 
 
     
@@ -596,6 +623,71 @@ Error: Error building site: TOCSS: failed to transform <span style="color:#4e9a0
     
 	
   
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-f24efecd26e24c6c1b72bdf863bf76bd">3 - 客製化 CSS</h1>
+    
+	<h2 id="設定專案樣式-scss-變數">設定專案樣式 SCSS 變數</h2>
+<p>在專案目錄下新增 <code>assets/scss/_variables_project.scss</code> 檔案，可以針對主題設定客製化的樣式變數，像將可以主色系 <code>$primary</code> 設定為自己想要的色系</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#8f5902;font-style:italic">/* assets/scss/_variables_project.scss */</span>
+<span style="color:#8f5902;font-style:italic">// 主色系
+</span><span style="color:#8f5902;font-style:italic"></span><span style="color:#000">$primary</span><span style="color:#ce5c00;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">#5a3ba2</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000">$secondary</span><span style="color:#ce5c00;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">#A23B72</span><span style="color:#000;font-weight:bold">;</span>
+</code></pre></div><h2 id="複寫所有-css">複寫所有 css</h2>
+<p>在專案目錄下新增 <code>assets/scss/_styles_project.scss</code> 檔案，可以直接複寫整個網站的樣式</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#8f5902;font-style:italic">/* assets/scss/_styles_project.scss */</span>
+<span style="color:#204a87;font-weight:bold">body</span> <span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#8f5902;font-style:italic">/* 將背景改成紅色 */</span>
+  <span style="color:#204a87;font-weight:bold">background</span><span style="color:#5c35cc;font-weight:bold">:</span> <span style="color:#204a87;font-weight:bold">red</span><span style="color:#000;font-weight:bold">;</span>
+<span style="color:#000;font-weight:bold">}</span>
+</code></pre></div><h2 id="參考資料">參考資料</h2>
+<ul>
+<li><a href="https://www.docsy.dev/docs/adding-content/lookandfeel/">Look and Feel | Docsy</a></li>
+</ul>
+
+</div>
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-ea52ecff62f79923fe8c7532ddfa2114">4 - 搜尋</h1>
+    
+	<h2 id="lunr-search">Lunr Search</h2>
+<p>在 <code>config.toml</code> 啟用本地端搜尋</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#8f5902;font-style:italic"># Enable local search</span>
+<span style="color:#000">offlineSearch</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">true</span>
+</code></pre></div><p>在 <code>config.toml</code> 關閉 Algolia DocSearch</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#000">algolia_docsearch</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">false</span>
+</code></pre></div><p>在 <code>config.toml</code> 移除 GCSE(Google Custom Search Engine)</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#8f5902;font-style:italic"># GCSE</span>
+<span style="color:#8f5902;font-style:italic"># gcs_engine_id = &#34;d72aa9b2712488cc3&#34;</span>
+</code></pre></div><p>在 <code>config.toml</code> 設定離線搜尋設定</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#8f5902;font-style:italic"># 離線搜尋摘要長度</span>
+<span style="color:#000">offlineSearchSummaryLength</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">300</span>
+<span style="color:#8f5902;font-style:italic"># 離線搜尋最多結果筆數</span>
+<span style="color:#000">offlineSearchMaxResults</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">25</span>
+</code></pre></div>
+</div>
+
+
+
+    
+	
+  
 
 
 
@@ -661,8 +753,6 @@ Error: Error building site: TOCSS: failed to transform <span style="color:#4e9a0
 
 
 <script src="/js/main.min.906bd02f142be20eb94bb49539a18a3e93ec0b9ff5f5dcf3796eed436a6103d2.js" integrity="sha256-kGvQLxQr4g65S7SVOaGKPpPsC5/19dzzeW7tQ2phA9I=" crossorigin="anonymous"></script>
-
-
 
 
 

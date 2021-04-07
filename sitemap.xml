@@ -57,6 +57,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/style/</loc>
+    <lastmod>2021-04-07T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/search/</loc>
+    <lastmod>2021-04-07T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/template/internal/disqus/</loc>
     <lastmod>2021-04-04T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -88,7 +98,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/</loc>
-    <lastmod>2021-04-04T08:50:29+00:00</lastmod>
+    <lastmod>2021-04-07T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
