@@ -12,6 +12,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/content/short-code/youtube/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -82,6 +87,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/content/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -104,6 +119,11 @@
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/template/load-template/</loc>
     <lastmod>2021-04-04T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
