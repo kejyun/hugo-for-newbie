@@ -356,5 +356,8 @@
     <lastmod>2021-04-07T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/todo/</loc>
+    <priority>0</priority>
   </url>
 </urlset>
