@@ -172,6 +172,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/news/hugonews/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/reveal/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/developer/base16/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -249,6 +264,11 @@
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/news/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
