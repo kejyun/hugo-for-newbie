@@ -137,12 +137,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/start/install/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/resume/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/start/create/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

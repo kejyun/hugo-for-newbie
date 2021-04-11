@@ -178,7 +178,7 @@ if (!doNotTrack) {
 		],
 		"genre":["KJ"],
 		"articleSection": "KJ",
-		"articleBody": "參考資料  Complete List | Hugo Themes  "
+		"articleBody": "使用 Hugo 網站主題 Hugo 有許多網友建立的各式不一樣的主題，在 Hugo Themes 可以看到這些各式不同的主題可以用於建立不同類型的網站，\n可以將不同的主題下載下來放到 Hugo 目錄下的 themes 目錄，並在 config.toml 設定主題名稱即可使用這個主題的設定\n# config.toml 設定主題載入優先權，優先設定的會先載入 theme = [\u0026#34;my-theme\u0026#34;, \u0026#34;other-theme\u0026#34;] 使用下載方式載入主題 各個不同的主題的 Git Repository 可以直接將這個主題的檔案下載下來，然後將檔案解壓縮放到 themes 目錄下即可\n下載下來後放到 themes\/my-themes，就可以在 config.toml 設定使用 my-themes 的主題了\n- themes - my-themes 使用 Git Submodule 子模組下載主題 若為了以後當主題有更新時可以直接使用 git 做版本控制更新，可以將主題使用 git submodule 的方式去載入主題\n git submodule add \u0026lt;git@主題網址\u0026gt; \u0026lt;子模組路徑\u0026gt;\n # 下載 doks 主題 git submodule add git@github.com:h-enk\/doks.git .\/themes\/doks-themes # 下載的主題可以自訂目錄名稱 git submodule add git@github.com:h-enk\/doks.git .\/themes\/my-themes 下載完後只需要在 config.toml 指定主題的目錄名稱即可使用該主題\n# config.toml 設定主題載入優先權，優先設定的會先載入 theme = [\u0026#34;my-theme\u0026#34;, \u0026#34;doks-themes\u0026#34;] 參考資料  Complete List | Hugo Themes  "
 	}
 </script>
 
@@ -344,7 +344,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.abefc72e3ea0a5e52d49d77c2e4b7e44.json"
+  data-offline-search-index-json-src="/offline-search-index.2d3e9c65b3a0f724c7e2d67b5d49406f.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -380,7 +380,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.abefc72e3ea0a5e52d49d77c2e4b7e44.json"
+  data-offline-search-index-json-src="/offline-search-index.2d3e9c65b3a0f724c7e2d67b5d49406f.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -436,8 +436,59 @@ if (!doNotTrack) {
   
   
   
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsstart-li">
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsstart-li">
     <a href="/docs/start/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-docsstart"><span class="">開始</span></a>
+    
+      
+      <ul class="pr-md-3 ul-2">
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsstartinstall-li">
+    <a href="/docs/start/install/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-docsstartinstall"><span class="">安裝</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsstartcreate-li">
+    <a href="/docs/start/create/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-docsstartcreate"><span class="">建立網站</span></a>
+    
+  </li>
+
+          
+        
+      </ul>
     
   </li>
 
@@ -2005,6 +2056,18 @@ if (!doNotTrack) {
 
 
 
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#使用-hugo-網站主題">使用 Hugo 網站主題</a>
+      <ul>
+        <li><a href="#使用下載方式載入主題">使用下載方式載入主題</a></li>
+        <li><a href="#使用-git-submodule-子模組下載主題">使用 Git Submodule 子模組下載主題</a></li>
+      </ul>
+    </li>
+    <li><a href="#參考資料">參考資料</a></li>
+  </ul>
+</nav>
+
 
 
           </div>
@@ -2063,7 +2126,31 @@ if (!doNotTrack) {
 
 
  
-		<h2 id="參考資料">參考資料</h2>
+		<h2 id="使用-hugo-網站主題">使用 Hugo 網站主題</h2>
+<p>Hugo 有許多網友建立的各式不一樣的主題，在 <a href="https://themes.gohugo.io/">Hugo Themes</a> 可以看到這些各式不同的主題可以用於建立不同類型的網站，</p>
+<p>可以將不同的主題下載下來放到 Hugo 目錄下的 <code>themes</code> 目錄，並在 <code>config.toml</code> 設定主題名稱即可使用這個主題的設定</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#8f5902;font-style:italic"># config.toml 設定主題載入優先權，優先設定的會先載入</span>
+<span style="color:#000">theme</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;my-theme&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;other-theme&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</code></pre></div><h3 id="使用下載方式載入主題">使用下載方式載入主題</h3>
+<p>各個不同的主題的 Git Repository 可以直接將這個主題的檔案下載下來，然後將檔案解壓縮放到 <code>themes</code> 目錄下即可</p>
+<p><img src="./images/download-hugo-themes.png" alt="下載主題"></p>
+<p>下載下來後放到 <code>themes/my-themes</code>，就可以在 <code>config.toml</code> 設定使用 <code>my-themes</code> 的主題了</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"> - themes
+    - my-themes
+</code></pre></div><h3 id="使用-git-submodule-子模組下載主題">使用 Git Submodule 子模組下載主題</h3>
+<p>若為了以後當主題有更新時可以直接使用 git 做版本控制更新，可以將主題使用 <code>git submodule</code> 的方式去載入主題</p>
+<blockquote>
+<p>git submodule add &lt;git@主題網址&gt; &lt;子模組路徑&gt;</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#8f5902;font-style:italic"># 下載 doks 主題</span>
+git submodule add git@github.com:h-enk/doks.git ./themes/doks-themes
+
+<span style="color:#8f5902;font-style:italic"># 下載的主題可以自訂目錄名稱</span>
+git submodule add git@github.com:h-enk/doks.git ./themes/my-themes
+</code></pre></div><p>下載完後只需要在 <code>config.toml</code> 指定主題的目錄名稱即可使用該主題</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#8f5902;font-style:italic"># config.toml 設定主題載入優先權，優先設定的會先載入</span>
+<span style="color:#000">theme</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;my-theme&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;doks-themes&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</code></pre></div><h2 id="參考資料">參考資料</h2>
 <ul>
 <li><a href="https://themes.gohugo.io/">Complete List | Hugo Themes</a></li>
 </ul>
@@ -2140,6 +2227,8 @@ if (!doNotTrack) {
             
         
             
+        
+            
                 <div class="entry">
                     <h5>
                         <a href="/docs/theme/blog/">部落格 Blog 主題</a>
@@ -2155,6 +2244,8 @@ if (!doNotTrack) {
                     </h5>
                     <p>Hugo 可以用來建立各種不同履歷樣式的樣板</p>
                 </div>
+            
+        
             
         
             
