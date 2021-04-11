@@ -127,6 +127,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/kross/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -142,6 +147,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/elate/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/designer/liva/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/designer/</loc>
+    <lastmod>2021-04-02T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,8 +172,23 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/designer/creative-portfolio/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/influencer/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/</loc>
+    <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -163,6 +198,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/fresh/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -177,7 +217,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/resto/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/restaurant/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -188,6 +238,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/developer/console/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
