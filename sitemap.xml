@@ -127,6 +127,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/resume/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/kross/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -187,8 +192,18 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/resume/toha/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/resume/somrat/</loc>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -268,7 +283,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/</loc>
-    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
