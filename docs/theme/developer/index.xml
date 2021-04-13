@@ -1,0 +1,92 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – 工程師 Developer 主題樣板</title>
+    <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/</link>
+    <description>Recent content in 工程師 Developer 主題樣板 on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 02 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/docs/theme/developer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Base16</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/base16/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/developer/base16/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/base16-cover-home.png&#34; alt=&#34;Base16 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/base16-cover-article.png&#34; alt=&#34;Base16 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/base16/&#34;&gt;Base16 | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/base16/&#34;&gt;Base16 | Blog Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/htdvisser/hugo-base16-theme&#34;&gt;htdvisser/hugo-base16-theme: Hugo theme with base16 eighties colorscheme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Hugo Theme Console</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/console/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/developer/console/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugo-theme-console-cover-home.png&#34; alt=&#34;Hugo Theme Console 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugo-theme-console-cover-article.png&#34; alt=&#34;Hugo Theme Console 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugo-theme-console-cover-photo.png&#34; alt=&#34;Hugo Theme Console 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-console/&#34;&gt;Hugo Theme Console | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io//theme/hugo-theme-console/&#34;&gt;Hugo Theme Console Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mrmierzejewski/hugo-theme-console&#34;&gt;mrmierzejewski/hugo-theme-console: A minimal, responsive and light theme for Hugo inspired by Linux console.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Hugo.386</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/hugo-386/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/developer/hugo-386/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugo-386-cover-home.png&#34; alt=&#34;Hugo.386 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugo-386-cover-article-1.png&#34; alt=&#34;Hugo.386 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugo-386-cover-article-2.png&#34; alt=&#34;Hugo.386 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugo-386-cover-tags.png&#34; alt=&#34;Hugo.386 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo.386/&#34;&gt;Hugo.386 | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo.386/&#34;&gt;Hugo.386 Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/maxlefou/hugo.386&#34;&gt;Max le Fou / HUGO.386 · GitLab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Install</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/install/</link>
+    <description>Recent content in Install on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/start/install/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/start/install/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;在-macos-安裝&#34;&gt;在 MacOS 安裝&lt;/h2&gt;
+&lt;h3 id=&#34;使用-homebrew-安裝&#34;&gt;使用 Homebrew 安裝&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Brew 安裝的 hugo 預設為 &lt;code&gt;extended&lt;/code&gt; 的版本，可以編譯 &lt;code&gt;Sass/SCSS &lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;在-ubuntu-安裝&#34;&gt;在 Ubuntu 安裝&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt-get install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安裝教學&#34;&gt;安裝教學&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/WvhCGlLcrF8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

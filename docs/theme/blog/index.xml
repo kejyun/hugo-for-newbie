@@ -1,0 +1,344 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – 部落格 Blog 主題</title>
+    <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</link>
+    <description>Recent content in 部落格 Blog 主題 on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 10 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/docs/theme/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Soho</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/soho-cover-home.png&#34; alt=&#34;Soho 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/soho-cover-article.png&#34; alt=&#34;Soho 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/soho-cover-tags.png&#34; alt=&#34;Soho 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/soho/&#34;&gt;Soho | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/soho/&#34;&gt;Soho Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alexandrevicenzi/soho&#34;&gt;alexandrevicenzi/soho: Minimalist Hugo theme based on Hyde&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Ananke</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/ananke/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/ananke/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;多國語系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ananke-cover-home.png&#34; alt=&#34;Ananke 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ananke-cover-article-list.png&#34; alt=&#34;Ananke 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ananke-cover-article-content-1.png&#34; alt=&#34;Ananke 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ananke-cover-article-content-2.png&#34; alt=&#34;Ananke 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ananke-cover-contact.png&#34; alt=&#34;Ananke 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/gohugo-theme-ananke/&#34;&gt;Gohugo Theme Ananke | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/gohugo-theme-ananke/&#34;&gt;Ananke: a Hugo Theme | My blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/theNewDynamic/gohugo-theme-ananke&#34;&gt;theNewDynamic/gohugo-theme-ananke: Ananke: A theme for Hugo Sites&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Future Imperfect</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/future-imperfect/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/future-imperfect/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;多國語系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-home.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-article.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-tags.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-future-imperfect-slim/&#34;&gt;Hugo Future Imperfect Slim | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-future-imperfect-slim/&#34;&gt;Future Imperfect Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pacollins/hugo-future-imperfect-slim&#34;&gt;pacollins/hugo-future-imperfect-slim: Multilingual Blogging Theme for Hugo | Check the Wiki for Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Github Style</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;li&gt;Dark mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/github-style-cover-home.png&#34; alt=&#34;Github Style 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/github-style-cover-article.png&#34; alt=&#34;Github Style 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/github-style-cover-home-dark-mode.png&#34; alt=&#34;Github Style 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/github-style-cover-article-dark-mode.png&#34; alt=&#34;Github Style 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/github-style-cover-tags-dark-mode.png&#34; alt=&#34;Github Style 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/github-style/&#34;&gt;Github Style | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/bilberry-hugo-theme/&#34;&gt;Github Style Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MeiK2333/github-style&#34;&gt;MeiK2333/github-style&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Northendlab</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/northendlab-cover-home.png&#34; alt=&#34;Northendlab 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/northendlab-cover-post.png&#34; alt=&#34;Northendlab 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/northendlab-cover-contact.png&#34; alt=&#34;Northendlab 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/northendlab-hugo/&#34;&gt;Northendlab Hugo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/northendlab-hugo/&#34;&gt;Northendlab | Blog Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gethugothemes/northendlab-hugo&#34;&gt;gethugothemes/northendlab-hugo: Hugo blog template.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Bilberry</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/bilberry/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/bilberry/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;多國語系&lt;/li&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/bilberry-cover-home.png&#34; alt=&#34;Bilberry 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/bilberry-cover-article.png&#34; alt=&#34;Bilberry 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/bilberry-hugo-theme/&#34;&gt;Bilberry Hugo Theme | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/bilberry-hugo-theme/&#34;&gt;Bilberry Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Lednerb/bilberry-hugo-theme&#34;&gt;Lednerb/bilberry-hugo-theme: Premium theme for the hugo site builder. DEMO:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: LoveIt</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/love-it-cover-home.png&#34; alt=&#34;LoveIt 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/love-it-cover-article.png&#34; alt=&#34;LoveIt 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/love-it-cover-tags.png&#34; alt=&#34;LoveIt 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/loveit/&#34;&gt;LoveIt | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/LoveIt/&#34;&gt;LoveIt Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dillonzq/LoveIt&#34;&gt;dillonzq/LoveIt: ❤️A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Pure</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/pure/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/pure/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/pure-cover-article.png&#34; alt=&#34;Pure 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/pure-cover-tags-1.png&#34; alt=&#34;Pure 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/pure-cover-tags-2.png&#34; alt=&#34;Pure 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-pure/&#34;&gt;Hugo Theme Pure | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io//theme/hugo-theme-pure/post/markdown-syntax/&#34;&gt;Pure Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xiaoheiAh/hugo-theme-pure&#34;&gt;xiaoheiAh/hugo-theme-pure: A pure theme for Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: hyde-hyde</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/hyde-hyde/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/hyde-hyde/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hyde-hyde-cover-home.png&#34; alt=&#34;hyde-hyde 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hyde-hyde-cover-article.png&#34; alt=&#34;hyde-hyde 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hyde-hyde-cover-tags.png&#34; alt=&#34;hyde-hyde 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hyde-hyde/&#34;&gt;Hyde Hyde | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io//theme/hyde-hyde/&#34;&gt;hyde-hyde Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/htr3n/hyde-hyde&#34;&gt;htr3n/hyde-hyde: A cool theme inspired by spf13&amp;rsquo;s Hyde theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Clean White</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/clean-white-cover-home.png&#34; alt=&#34;Clean White 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/clean-white-cover-article.png&#34; alt=&#34;Clean White 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/clean-white-cover-tags.png&#34; alt=&#34;Clean White 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-cleanwhite/&#34;&gt;Hugo Theme Cleanwhite | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-theme-cleanwhite/&#34;&gt;Clean White Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zhaohuabing/hugo-theme-cleanwhite&#34;&gt;zhaohuabing/hugo-theme-cleanwhite: A clean, elegant blog theme for hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: m10c</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/m10c-cover-home.png&#34; alt=&#34;m10c 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/m10c-cover-article.png&#34; alt=&#34;m10c 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/m10c-cover-tags.png&#34; alt=&#34;m10c 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-m10c/&#34;&gt;Hugo Theme M10c | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-theme-m10c/&#34;&gt;m10c Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vaga/hugo-theme-m10c&#34;&gt;vaga/hugo-theme-m10c: A minimalistic (m10c) blog theme for Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Beautiful</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/beautiful-cover-home.png&#34; alt=&#34;Beautiful 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/beautiful-cover-article.png&#34; alt=&#34;Beautiful 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/beautiful-cover-tags.png&#34; alt=&#34;Beautiful 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/beautifulhugo/&#34;&gt;Beautifulhugo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/beautifulhugo/&#34;&gt;Beautiful Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/halogenica/beautifulhugo&#34;&gt;halogenica/beautifulhugo: Theme for the Hugo static website generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

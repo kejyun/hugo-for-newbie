@@ -1,0 +1,349 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Template</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/template/</link>
+    <description>Recent content in Template on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 04 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 變數</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/variable/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/variable/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;變數&#34;&gt;變數&lt;/h2&gt;
+&lt;h3 id=&#34;列印變數&#34;&gt;列印變數&lt;/h3&gt;
+&lt;p&gt;格式&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ .variable_name }}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;範例&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;自訂變數&#34;&gt;自訂變數&lt;/h3&gt;
+&lt;p&gt;可以使用 &lt;code&gt;$&lt;/code&gt; 符號去儲存指定的變數資料，並在之後去對這個變數去做處理運算&lt;/p&gt;
+&lt;p&gt;格式&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 字串 --&amp;gt;&lt;/span&gt;
+{{ $variable_name := &amp;#34;variable value&amp;#34;}}
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 其他變數 --&amp;gt;&lt;/span&gt;
+{{ $variable_name := $another_variable}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;範例&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 字串 --&amp;gt;&lt;/span&gt;
+{{ $address := &amp;#34;123 Main St.&amp;#34; }}
+{{ $address }}
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 其他變數 --&amp;gt;&lt;/span&gt;
+{{ $title := .Title }}
+{{ $title }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;變數邏輯測試&#34;&gt;變數邏輯測試&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ $var := &amp;#34;Hugo Page&amp;#34; }}
+{{ if .IsHome }}
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 首頁 --&amp;gt;&lt;/span&gt;
+    {{ $var = &amp;#34;Hugo Home&amp;#34; }}
+{{ end }}
+Var is {{ $var }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;系統預設變數&#34;&gt;系統預設變數&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;變數名稱&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;th&gt;範例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;.IsHome&lt;/td&gt;
+&lt;td&gt;是否首頁&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.Kind&lt;/td&gt;
+&lt;td&gt;頁面種類&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;section (章節)&lt;/code&gt;, &lt;code&gt;page (頁面)&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/introduction/&#34;&gt;Introduction to Hugo Templating | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Google Analytics</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/internal/google-analytics/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/internal/google-analytics/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;configtoml-設定&#34;&gt;Config.toml 設定&lt;/h2&gt;
+&lt;p&gt;Google Analytics v3 (analytics.js)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;googleAnalytics&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;UA-PROPERTY_ID&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Google Analytics v4 (gtag.js)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;googleAnalytics&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;G-MEASUREMENT_ID&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;載入-google-analytics-樣板&#34;&gt;載入 Google Analytics 樣板&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }}
+{{ template &amp;quot;_internal/google_analytics_async.html&amp;quot; . }}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;當使用 &lt;code&gt;Google Analytics v4 (gtag.js)&lt;/code&gt; 版本時，請使用 &lt;code&gt;_internal/google_analytics.html.&lt;/code&gt; 的樣板才可以正常執行&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/internal/&#34;&gt;Internal Templates | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 邏輯運算</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/logic/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/logic/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;字串處理&#34;&gt;字串處理&lt;/h2&gt;
+&lt;h3 id=&#34;replace-取代httpsgohugoiofunctionsreplace&#34;&gt;&lt;a href=&#34;https://gohugo.io/functions/replace/&#34;&gt;replace 取代&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;replace INPUT OLD NEW [LIMIT]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;replace (原始字串) (搜尋的字串) (取代的字串) [最多取代次數]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 將 o 取代成 u，最多取代 2 次 --&amp;gt;&lt;/span&gt;
+{{ replace &amp;#34;hugo hugo hugo&amp;#34; &amp;#34;o&amp;#34; &amp;#34;u&amp;#34; 2 }}
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 結果: &amp;#34;hugu hugu hugo&amp;#34; --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;len-字串長度httpsgohugoiofunctionslen&#34;&gt;&lt;a href=&#34;https://gohugo.io/functions/len/&#34;&gt;len 字串長度&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;len INPUT&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;len (原始字串)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 計算字串 &amp;#34;hugo&amp;#34; 長度 --&amp;gt;&lt;/span&gt;
+{{ len &amp;#34;hugo&amp;#34; }}
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 結果: 4 --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;split-透過指定字元拆解字串成陣列httpsgohugoiofunctionssplit&#34;&gt;&lt;a href=&#34;https://gohugo.io/functions/split/&#34;&gt;split 透過指定字元拆解字串成陣列&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;split STRING DELIM&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;split (原始字串) (指定拆解字元)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 將字串「tag1,tag2,tag3」透過「,」字元拆解成陣列 --&amp;gt;&lt;/span&gt;
+{{split &amp;#34;tag1,tag2,tag3&amp;#34; &amp;#34;,&amp;#34; }}
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 結果: [&amp;#34;tag1&amp;#34; &amp;#34;tag2&amp;#34; &amp;#34;tag3&amp;#34;] --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;slice-將指定資料轉換成陣列httpsgohugoiofunctionsslice&#34;&gt;&lt;a href=&#34;https://gohugo.io/functions/slice/&#34;&gt;slice 將指定資料轉換成陣列&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;slice ITEM&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;slice (資料列&amp;hellip;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 將「&amp;#34;hugo&amp;#34; &amp;#34;static&amp;#34; &amp;#34;site&amp;#34; &amp;#34;generator&amp;#34;」字串資料列轉換成陣列 --&amp;gt;&lt;/span&gt;
+{{ slice &amp;#34;hugo&amp;#34; &amp;#34;static&amp;#34; &amp;#34;site&amp;#34; &amp;#34;generator&amp;#34;) }}
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 結果: [hugo static site generator] --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;比較&#34;&gt;比較&lt;/h2&gt;
+&lt;h3 id=&#34;lt-小於&#34;&gt;lt 小於&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;lt INTEGER_1 INTEGER_2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;lt (整數1) (整數2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 列印 true (i.e., 1 小於 2 為 true) --&amp;gt;&lt;/span&gt;
+{{ lt 1 2 }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ge-大於等於&#34;&gt;ge 大於等於&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;gt INTEGER_1 INTEGER_2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;gt (整數1) (整數2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 列印 true (i.e., 10 大於 5 為 true) --&amp;gt;&lt;/span&gt;
+{{ if ge 10 5 }}true{{ end }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;math-數學運算&#34;&gt;Math 數學運算&lt;/h2&gt;
+&lt;h3 id=&#34;add-加法&#34;&gt;add 加法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;add INTEGER_1 INTEGER_2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;add (整數1) (整數2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 1 + 2 = 3 --&amp;gt;&lt;/span&gt;
+{{add 1 2}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;sub-減法&#34;&gt;sub 減法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sub INTEGER_1 INTEGER_2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;sub (整數1) (整數2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 3 - 2 = 1 --&amp;gt;&lt;/span&gt;
+{{sub 3 2}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mul-乘法&#34;&gt;mul 乘法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;mul INTEGER_1 INTEGER_2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;mul (整數1) (整數2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 2 x 3 = 6 --&amp;gt;&lt;/span&gt;
+{{mul 2 3}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;div-除法&#34;&gt;div 除法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;div INTEGER_1 INTEGER_2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;div (整數1) (整數2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 6 / 3 = 2 --&amp;gt;&lt;/span&gt;
+{{div 6 3}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/introduction/&#34;&gt;Introduction to Hugo Templating | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/functions/&#34;&gt;Functions Quick Reference | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/functions/math/&#34;&gt;Math | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Disqus 留言版</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/internal/disqus/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/internal/disqus/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;configtoml-設定&#34;&gt;Config.toml 設定&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Disqus 名稱&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;disqusShortname&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;yourdiscussshortname&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;載入-disqus-樣板&#34;&gt;載入 Disqus 樣板&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ template &amp;quot;_internal/disqus.html&amp;quot; . }}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/internal/&#34;&gt;Internal Templates | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/internal/&#34;&gt;Internal Templates | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 載入樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/load-template/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/load-template/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;樣板目錄&#34;&gt;樣板目錄&lt;/h2&gt;
+&lt;p&gt;Hugo 所有的樣板路徑都是放在 &lt;code&gt;layouts/partials/&lt;/code&gt; 目錄下，所以可以把各個樣板分門別類都放在這些目錄下，這樣在樣板頁會依照樣板的路徑去做個別的載入&lt;/p&gt;
+&lt;h2 id=&#34;載入方式&#34;&gt;載入方式&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ partial &amp;#34;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;/&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;PARTIAL&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;.&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;EXTENSION&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;&amp;#34; . }}.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;假設檔案是放在 &lt;code&gt;layouts/partials/component/my-custom-component.html&lt;/code&gt; 路徑下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt; - layouts
+    - partials
+        - component
+            - my-custom-component.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;那我們就可以用 &lt;code&gt;partial&lt;/code&gt; 的方式去載入此樣板&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ partial &amp;#34;component/my-custom-component.html&amp;#34; . }}.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;預設載入目錄的起始目錄為 &lt;code&gt;layouts/partials&lt;/code&gt;，所以這個路徑在載入時就不需要再重複輸入&lt;/p&gt;
+&lt;h2 id=&#34;載入優先權&#34;&gt;載入優先權&lt;/h2&gt;
+&lt;p&gt;我們會使用各個不同的主題去顯示，在同個樣板如果在不同的主題以及自己的專案有不同的載入優先權&lt;/p&gt;
+&lt;p&gt;假如我們在同個路徑下有同一個樣板名稱，例如 &lt;code&gt;component/my-custom-component.html&lt;/code&gt;，這個樣板分別是在 hugo 專案及主題樣板路徑下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# hugo 專案&lt;/span&gt;
+- layouts
+   - partials
+       - component
+           - my-custom-component.html
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 主題&lt;/span&gt;
+ - themes
+    - my-theme
+        - layouts
+            - partials
+                - component
+                  - my-custom-component.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;則樣板的載入優先權則是&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo 專案樣板 =&amp;gt; 主題樣板&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以 hugo 會優先載入 &lt;code&gt;layouts/partials/component/my-custom-component.html&lt;/code&gt;，而不是載入主題中的 &lt;code&gt;themes/my-theme/layouts/partials/component/my-custom-component.html&lt;/code&gt; 樣板&lt;/p&gt;
+&lt;h2 id=&#34;多主題載入優先權&#34;&gt;多主題載入優先權&lt;/h2&gt;
+&lt;p&gt;我們可以在 &lt;code&gt;config.toml&lt;/code&gt; 設定同時載入不同的主題，而載入的順序會以優先設定的主題優先載入&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# config.toml 設定主題載入優先權，優先設定的會先載入&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;theme&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;my-theme&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;other-theme&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在上方案例則會優先載入 &lt;code&gt;my-theme&lt;/code&gt;，然後再去載入 &lt;code&gt;other-theme&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;所以樣板的載入順序在這樣的狀況會是&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo 專案樣板 =&amp;gt; my-theme 主題樣板 =&amp;gt; other-theme 主題樣板&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;讀取指定檔案樣板-readfilehttpsgohugoiotemplatesfilesuse-readfile&#34;&gt;&lt;a href=&#34;https://gohugo.io/templates/files/#use-readfile&#34;&gt;讀取指定檔案樣板 readfile&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;可以使用 &lt;code&gt;readfile&lt;/code&gt; 的方法指定載入特定路徑的檔案，並可以設定是否做 &lt;code&gt;markdown&lt;/code&gt; 的解析&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;下方範例有將特殊字元隔開，實際 readfile 語法前後 &lt;code&gt;大括號 {}&lt;/code&gt; 與 &lt;code&gt;箭頭 &amp;lt;&amp;gt;&lt;/code&gt; 之間沒有空白字元&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;readfile&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;file&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/path/to/local/file.txt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;markdown&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/introduction/&#34;&gt;Introduction to Hugo Templating | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/files/#use-readfile&#34;&gt;Local File Templates | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 系統樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/internal/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/internal/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/internal/&#34;&gt;Internal Templates | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

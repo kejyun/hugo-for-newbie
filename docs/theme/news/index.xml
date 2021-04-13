@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – 新聞 News 主題樣板</title>
+    <link>https://hugo-for-newbie.kejyun.com/docs/theme/news/</link>
+    <description>Recent content in 新聞 News 主題樣板 on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/docs/theme/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: hugonews</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/news/hugonews/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/news/hugonews/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugonews-cover-home.png&#34; alt=&#34;hugonews 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/hugonews-cover-sites.png&#34; alt=&#34;hugonews 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugonews/&#34;&gt;Hugonews | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugonews/&#34;&gt;hugonews Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spaghettiwews/hugonews&#34;&gt;spaghettiwews/hugonews: hugo theme (based on https://news.ycombinator.com) for https://bookmarks.wews.co.zw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

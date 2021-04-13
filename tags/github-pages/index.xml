@@ -1,0 +1,93 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Github Pages</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/github-pages/</link>
+    <description>Recent content in Github Pages on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Github Page</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/deploy/github/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/deploy/github/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;建立-github-page-的-repository&#34;&gt;建立 Github Page 的 Repository&lt;/h2&gt;
+&lt;p&gt;建立 Repo 時選擇建立預設的 &lt;code&gt;REAEME.md&lt;/code&gt; 檔案，這樣可以直接將這個 Repo 使用 Submodule 的方式直接加入 hugo 專案&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/github/github-page-create-repository.png&#34; alt=&#34;建立 Repo&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;變更-repo-branch-至-gh-pages&#34;&gt;變更 Repo Branch 至 &lt;code&gt;gh-pages&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;Repository / Setting&lt;/code&gt; 選擇 &lt;code&gt;Branchs&lt;/code&gt; 頁籤，將原有的預設分支 &lt;code&gt;main&lt;/code&gt; 變更為 &lt;code&gt;gh-pages&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/github/github-page-edit-main-branch.png&#34; alt=&#34;變更 Repo Branch&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/github/github-page-change-main-branch-to-gh-pages.png&#34; alt=&#34;變更 Repo Branch&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;建立客製化網址&#34;&gt;建立客製化網址&lt;/h2&gt;
+&lt;p&gt;Github Pages 允許你使用自己的網域連線至頁面，可以在 &lt;code&gt;Repository / Setting&lt;/code&gt; 選擇 &lt;code&gt;Pages&lt;/code&gt; 頁籤&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;Custom domain&lt;/code&gt; 設定自己的網址即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/github/github-page-add-custom-domain-1.png&#34; alt=&#34;變更 Repo 自訂網址&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/github/github-page-add-custom-domain-2.png&#34; alt=&#34;變更 Repo 自訂網址&#34;&gt;&lt;/p&gt;
+&lt;p&gt;記得設定完成後要去將 DNS 使用 &lt;code&gt;CNAME&lt;/code&gt; 的方式指定至自己的 Github Page 帳號網址，e.g. &lt;code&gt;kejyun.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/github/github-page-dns-cname.png&#34; alt=&#34;變更 Repo 自訂網址&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;加入-github-page-repo-至-hugo-專案&#34;&gt;加入 Github Page Repo 至 Hugo 專案&lt;/h2&gt;
+&lt;p&gt;可以使用 Git Submodule 的方式將 Github Pages 的 Repo 加入至 Hugo 專案中&lt;/p&gt;
+&lt;p&gt;因為 Hugo 發布文章建立靜態 html 時會將檔案皆放到 &lt;code&gt;public&lt;/code&gt; 目錄，所以可以將 Github Pages Repo 的子模組設定至 &lt;code&gt;public&lt;/code&gt; 目錄&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git submodule add &amp;lt;github-page@網址&amp;gt; .public&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git submodule add git@github.com:kejyun/my-hugo-page.git ./public
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;將子模組設定完成後，之後只要使用 &lt;code&gt;hugo&lt;/code&gt; 指令建立發布的靜態 html 時，將 &lt;code&gt;public&lt;/code&gt; 目錄下的子模組 push 至 Github Page Repo 即可快速完成部署，且也有檔案版本控制&lt;/p&gt;
+&lt;h2 id=&#34;github-page-repository-限制&#34;&gt;Github Page Repository 限制&lt;/h2&gt;
+&lt;p&gt;Github Page 如果是 Free 版本僅能將 Repo 設定為 &lt;code&gt;public&lt;/code&gt;，若想要有 &lt;code&gt;private&lt;/code&gt; 的 Github Page 則需要付費才可&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;帳號版本&lt;/th&gt;
+&lt;th&gt;Repository 限制&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Github Free&lt;/td&gt;
+&lt;td&gt;public&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GitHub Free for organizations&lt;/td&gt;
+&lt;td&gt;public&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GitHub Pro&lt;/td&gt;
+&lt;td&gt;public 或 private&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GitHub Team&lt;/td&gt;
+&lt;td&gt;public 或 private&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GitHub Enterprise Cloud&lt;/td&gt;
+&lt;td&gt;public 或 private&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/&#34;&gt;Hosting &amp;amp; Deployment | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;Host on GitHub | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages&#34;&gt;About GitHub Pages - GitHub Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages&#34;&gt;Changing the visibility of your GitHub Pages site - GitHub Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

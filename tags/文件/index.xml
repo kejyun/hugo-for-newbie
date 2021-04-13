@@ -1,0 +1,343 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – 文件</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/%E6%96%87%E4%BB%B6/</link>
+    <description>Recent content in 文件 on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 13 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/%E6%96%87%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Docsy</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/</link>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單目錄可以有多階層，適合架構比較細的教學文件建置&lt;/li&gt;
+&lt;li&gt;可以客製化 CSS，調整配色樣式成自己想要的樣式&lt;/li&gt;
+&lt;li&gt;文件右方有標題摘要可以快速選擇章節&lt;/li&gt;
+&lt;li&gt;支援多國語言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/docsy-cover.png&#34; alt=&#34;Docsy 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/docsy/&#34;&gt;Docsy | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/&#34;&gt;Docsy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/docsy&#34;&gt;google/docsy: A set of Hugo doc templates for launching open source content.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/docsy-example&#34;&gt;google/docsy-example: An example documentation site using the Docsy Hugo theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</link>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;環境需求&#34;&gt;環境需求&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;th&gt;版本&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;hugo&lt;/td&gt;
+&lt;td&gt;0.75.0 以上，需要安裝 extended 版本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用 homebrew 安裝的 hugo 預設為 extended 版本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安裝套件&#34;&gt;安裝套件&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;npm install -g hugo-extended
+npm install -g autoprefixer
+npm install -g postcss-cli
+npm install -g postcss
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;使用-theme-方式安裝-docsy&#34;&gt;使用 theme 方式安裝 docsy&lt;/h2&gt;
+&lt;p&gt;在自己原有的專案將 docsy 用子模組的方式載入安裝至 &lt;code&gt;themes/docsy&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo new site myproject
+cd myproject
+git init
+git submodule add https://github.com/google/docsy.git themes/docsy
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;設定 &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;theme = &amp;#34;docsy&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;更新 docsy 模組的子模組 submodule&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因為 docsy 也有自己的子模組，所以若將原有的 docsy 用成子模組安裝成主題時，必須要再更新子模組的子模組，才可以順利執行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 docsy 的目錄可以看到 &lt;code&gt;.gitmodules&lt;/code&gt; 檔案有子模組的設定&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;submodule &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;assets/vendor/bootstrap&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; assets/vendor/bootstrap
+	&lt;span style=&#34;color:#000&#34;&gt;url&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; https://github.com/twbs/bootstrap.git
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;submodule &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;assets/vendor/Font-Awesome&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; assets/vendor/Font-Awesome
+	&lt;span style=&#34;color:#000&#34;&gt;url&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; https://github.com/FortAwesome/Font-Awesome.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;錯誤處理&#34;&gt;錯誤處理&lt;/h2&gt;
+&lt;p&gt;在安裝過程中有出現以下的訊息，可能的原因有 2 個&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;hugo 沒有安裝 extended 版本&lt;/li&gt;
+&lt;li&gt;docsy 沒有安裝子模組&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server -D
+Start building sites …
+Built in &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;70&lt;/span&gt; ms
+Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;scss/main.scss&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;text/x-scss&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;: SCSS processing failed: file &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;stdin&amp;#34;&lt;/span&gt;, line 6, col 1: File to import not found or unreadable: ../vendor/bootstrap/scss/bootstrap.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/getting-started/&#34;&gt;Getting Started | Docsy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/contributor-site/issues/123&#34;&gt;[docsy] SCSS generation error · Issue #123 · kubernetes/contributor-site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Doks</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單目錄只有單階層，可以用於介紹較簡易的教學文件&lt;/li&gt;
+&lt;li&gt;版面預設設計感比較有質感一點&lt;/li&gt;
+&lt;li&gt;有預設的 SEO 設定&lt;/li&gt;
+&lt;li&gt;文件右方有標題摘要可以快速選擇章節&lt;/li&gt;
+&lt;li&gt;提供「黑暗模式 Dark mode」可以讓閱讀比較不吃力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/doks-cover-home.png&#34; alt=&#34;Doks 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/doks-cover-docs.png&#34; alt=&#34;Doks 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/doks-cover-dark-mode.png&#34; alt=&#34;Doks 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/doks/&#34;&gt;Doks | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://getdoks.org/&#34;&gt;Doks - Modern Documentation Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/h-enk/doks&#34;&gt;h-enk/doks: Hugo theme helping you build modern documentation websites.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Learn</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單目錄可以有多階層，適合架構比較細的教學文件建置&lt;/li&gt;
+&lt;li&gt;選單目錄在瀏覽時才會全部展開&lt;/li&gt;
+&lt;li&gt;可以客製化 CSS，調整配色樣式成自己想要的樣式&lt;/li&gt;
+&lt;li&gt;支援多國語言&lt;/li&gt;
+&lt;li&gt;支援標籤分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/learn-cover-home.png&#34; alt=&#34;Learn 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/learn-cover-menu.png&#34; alt=&#34;Learn 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-learn/&#34;&gt;Hugo Theme Learn | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-theme-learn/en/&#34;&gt;Learn Theme for Hugo :: Documentation for Hugo Learn Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/matcornic/hugo-theme-learn/&#34;&gt;matcornic/hugo-theme-learn: Porting Grav Learn theme to Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 客製化 CSS</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/style/</link>
+      <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/style/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;設定專案樣式-scss-變數&#34;&gt;設定專案樣式 SCSS 變數&lt;/h2&gt;
+&lt;p&gt;在專案目錄下新增 &lt;code&gt;assets/scss/_variables_project.scss&lt;/code&gt; 檔案，可以針對主題設定客製化的樣式變數，像將可以主色系 &lt;code&gt;$primary&lt;/code&gt; 設定為自己想要的色系&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/* assets/scss/_variables_project.scss */&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;// 主色系
+&lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;$primary&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;#5a3ba2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;$secondary&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;#A23B72&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;複寫所有-css&#34;&gt;複寫所有 css&lt;/h2&gt;
+&lt;p&gt;在專案目錄下新增 &lt;code&gt;assets/scss/_styles_project.scss&lt;/code&gt; 檔案，可以直接複寫整個網站的樣式&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/* assets/scss/_styles_project.scss */&lt;/span&gt;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;body&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;/* 將背景改成紅色 */&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;background&lt;/span&gt;&lt;span style=&#34;color:#5c35cc;font-weight:bold&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;red&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/lookandfeel/&#34;&gt;Look and Feel | Docsy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 搜尋</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/search/</link>
+      <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/search/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;lunr-search&#34;&gt;Lunr Search&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 啟用本地端搜尋&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Enable local search&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;offlineSearch&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 關閉 Algolia DocSearch&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;algolia_docsearch&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 移除 GCSE(Google Custom Search Engine)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# GCSE&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# gcs_engine_id = &amp;#34;d72aa9b2712488cc3&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 設定離線搜尋設定&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 離線搜尋摘要長度&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;offlineSearchSummaryLength&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;300&lt;/span&gt;
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 離線搜尋最多結果筆數&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;offlineSearchMaxResults&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;25&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 客製化文件版型</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/custom-docs-layout/</link>
+      <pubDate>Tue, 13 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/custom-docs-layout/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;docsy-樣板類型&#34;&gt;Docsy 樣板類型&lt;/h2&gt;
+&lt;p&gt;Docsy 樣板類型有三種&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;類型&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;docs&lt;/td&gt;
+&lt;td&gt;文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;blog&lt;/td&gt;
+&lt;td&gt;部落格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;community&lt;/td&gt;
+&lt;td&gt;社群&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;在 &lt;code&gt;content&lt;/code&gt; 目錄中可以分別建立 &lt;code&gt;docs&lt;/code&gt;、 &lt;code&gt;blog&lt;/code&gt; 、 &lt;code&gt;community&lt;/code&gt; 這三種目錄去建立你的內文，這個目錄會分別針對這三種版型去產生畫面&lt;/p&gt;
+&lt;h2 id=&#34;客製化目錄路徑及版型&#34;&gt;客製化目錄路徑及版型&lt;/h2&gt;
+&lt;p&gt;若你想要有自己客製化的路徑而顯示特定的版型，可以建立完客製化的目錄後，在該目錄的文件 meta 設定加入 &lt;code&gt;type&lt;/code&gt; 的參數，設定該文章畫面類型是哪一種&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;---
+title: &amp;#34;My amazing new section&amp;#34;
+weight: 1
+type: docs
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;客製化目錄同時套用同個版型&#34;&gt;客製化目錄同時套用同個版型&lt;/h2&gt;
+&lt;p&gt;若要指定目錄下同時套用同一個版型，可以在該目錄的 &lt;code&gt;_index.md&lt;/code&gt; 檔案中設定 &lt;code&gt;cascade&lt;/code&gt; 的 &lt;code&gt;type&lt;/code&gt;，這樣該目錄下所有的文章都會套用同一個版型&lt;/p&gt;
+&lt;p&gt;像是下方的 &lt;code&gt;cascade&lt;/code&gt; 的 &lt;code&gt;type&lt;/code&gt; 設定為 &lt;code&gt;blog&lt;/code&gt;，則該目錄下所有的檔案內文皆會用 &lt;code&gt;blog&lt;/code&gt; 版型&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;---
+title: &amp;#34;Latest News&amp;#34;
+linkTitle: &amp;#34;News&amp;#34;
+menu:
+  main:
+    weight: 30
+
+cascade:
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;-&lt;/span&gt; type: &amp;#34;blog&amp;#34;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;指定目錄排除套用版型&#34;&gt;指定目錄排除套用版型&lt;/h2&gt;
+&lt;p&gt;在指定完目錄套用版型，若有某些子目錄想要套用其他版型，可以使用 &lt;code&gt;_target&lt;/code&gt; 指定目錄&lt;/p&gt;
+&lt;p&gt;像是下方的 &lt;code&gt;cascade&lt;/code&gt; 的 &lt;code&gt;type&lt;/code&gt; 設定為 &lt;code&gt;blog&lt;/code&gt;，只會套用在 &lt;code&gt;/news&lt;/code&gt; 目錄&lt;/p&gt;
+&lt;p&gt;而其他所有的目錄則皆會套用 &lt;code&gt;type&lt;/code&gt; 為 &lt;code&gt;docs&lt;/code&gt; 的版型&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;---
+title: &amp;#34;My Wonderful Site&amp;#34;
+
+cascade:
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;-&lt;/span&gt; type: &amp;#34;blog&amp;#34;
+  toc_root: true
+  &lt;span style=&#34;color:#000;font-style:italic&#34;&gt;_target:
+&lt;/span&gt;&lt;span style=&#34;color:#000;font-style:italic&#34;&gt;    path: &amp;#34;/news/*&lt;/span&gt;*&amp;#34;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;-&lt;/span&gt; type: &amp;#34;docs&amp;#34;
+  &lt;span style=&#34;color:#000;font-style:italic&#34;&gt;_target:
+&lt;/span&gt;&lt;span style=&#34;color:#000;font-style:italic&#34;&gt;    path: &amp;#34;/*&lt;/span&gt;*&amp;#34;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這個設定檔案可以放在 &lt;code&gt;content&lt;/code&gt; 目錄的最外層 &lt;code&gt;_index.md&lt;/code&gt;，像是 &lt;code&gt;/content/_index.md&lt;/code&gt;，這樣就可以一次設定整個內文的所有需要套用的版型類型&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/content/&#34;&gt;Adding Content | Docsy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: DocuAPI</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單目錄可以有多階層，適合架構比較細的 API 文件建置&lt;/li&gt;
+&lt;li&gt;選單目錄在瀏覽時才會全部展開&lt;/li&gt;
+&lt;li&gt;單頁式 API 文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/docu-api-cover-home.png&#34; alt=&#34;DocuAPI 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/docuapi/&#34;&gt;Docuapi | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/docuapi/#introduction&#34;&gt;Introduction – DocuAPI Example Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bep/docuapi&#34;&gt;bep/docuapi: Beautiful multilingual API documentation theme for Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

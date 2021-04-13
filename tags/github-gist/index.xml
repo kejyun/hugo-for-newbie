@@ -1,0 +1,49 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Github Gist</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/github-gist/</link>
+    <description>Recent content in Github Gist on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 10 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/github-gist/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Github Gist</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/content/short-code/gist/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/content/short-code/gist/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;用法&#34;&gt;用法&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;{{ &amp;lt; gist (帳號) (編號) &amp;gt; }}&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;{{ &amp;lt; gist kejyun df448b0cffb7c98ef880 &amp;gt; }}&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;範例&#34;&gt;範例&lt;/h2&gt;
+&lt;p&gt;找一個你想要內嵌的 Github Gist 程式，然後複製網址後方的 &lt;code&gt;帳號&lt;/code&gt; 及 &lt;code&gt;Gist 編號&lt;/code&gt;，像是下方的 &lt;code&gt;kejyun&lt;/code&gt; 及 &lt;code&gt;df448b0cffb7c98ef880&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;https://gist.github.com/kejyun/df448b0cffb7c98ef880
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然後使用 Github Gist Shortcodes 就可以在內文中內嵌 Github Gist 程式碼片段&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/kejyun/df448b0cffb7c98ef880.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;Shortcodes | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

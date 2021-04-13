@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.82.0" /><link rel="canonical" type="text/html" href="https://hugo-for-newbie.kejyun.com/docs/template/">
+<link rel="alternate" type="application/rss&#43;xml" href="https://hugo-for-newbie.kejyun.com/docs/template/index.xml">
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
 
@@ -47,8 +48,8 @@ if (!doNotTrack) {
 
 
 
-<link rel="preload" href="/scss/main.min.2fbc9128320398880ebd6896664b57776242fa0bebf8f540c54b524a38443e77.css" as="style">
-<link href="/scss/main.min.2fbc9128320398880ebd6896664b57776242fa0bebf8f540c54b524a38443e77.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.ae56d4ba8b3b021c807fa8443995ba4dbfdfbaf56d97d5508ebbf3cb31339936.css" as="style">
+<link href="/scss/main.min.ae56d4ba8b3b021c807fa8443995ba4dbfdfbaf56d97d5508ebbf3cb31339936.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -315,6 +316,18 @@ if (!doNotTrack) {
 				
 				
 				
+				<a class="nav-link" href="/about/" ><span>About</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
 				<a class="nav-link active" href="/docs/" ><i class='fas fa-book'></i><span class="active">教學文件</span></a>
 			</li>
 			
@@ -333,7 +346,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.a89cccfd13854ab8f63bbb2e28d26288.json"
+  data-offline-search-index-json-src="/offline-search-index.6af5a1fe76cb7d9cda3889ed8fd46997.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -761,9 +774,16 @@ Var is {{ $var }}
 <blockquote>
 <p>hugo 專案樣板 =&gt; my-theme 主題樣板 =&gt; other-theme 主題樣板</p>
 </blockquote>
-<h2 id="參考資料">參考資料</h2>
+<h2 id="讀取指定檔案樣板-readfilehttpsgohugoiotemplatesfilesuse-readfile"><a href="https://gohugo.io/templates/files/#use-readfile">讀取指定檔案樣板 readfile</a></h2>
+<p>可以使用 <code>readfile</code> 的方法指定載入特定路徑的檔案，並可以設定是否做 <code>markdown</code> 的解析</p>
+<blockquote>
+<p>下方範例有將特殊字元隔開，實際 readfile 語法前後 <code>大括號 {}</code> 與 <code>箭頭 &lt;&gt;</code> 之間沒有空白字元</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ <span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#204a87;font-weight:bold">readfile</span> <span style="color:#c4a000">file</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;/path/to/local/file.txt&#34;</span> <span style="color:#c4a000">markdown</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;true&#34;</span> <span style="color:#000;font-weight:bold">&gt;</span> }}
+</code></pre></div><h2 id="參考資料">參考資料</h2>
 <ul>
 <li><a href="https://gohugo.io/templates/introduction/">Introduction to Hugo Templating | Hugo</a></li>
+<li><a href="https://gohugo.io/templates/files/#use-readfile">Local File Templates | Hugo</a></li>
 </ul>
 
 </div>
@@ -901,6 +921,12 @@ Var is {{ $var }}
     </a>
   </li>
   
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Linkedin" aria-label="Linkedin">
+    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://tw.linkedin.com/in/kejyun">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </li>
+  
 </ul>
 
         
@@ -908,9 +934,9 @@ Var is {{ $var }}
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
         <small class="text-white">&copy; 2021 KeJyun All Rights Reserved</small>
-        <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank">隱私政策</a></small>
+        
 	
-		
+		<p class="mt-2"><a href="/about/">About</a></p>
 	
       </div>
     </div>

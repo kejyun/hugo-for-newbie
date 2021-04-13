@@ -1,0 +1,49 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Learn</title>
+    <link>https://hugo-for-newbie.kejyun.com/categories/learn/</link>
+    <description>Recent content in Learn on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 10 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/categories/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Learn</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單目錄可以有多階層，適合架構比較細的教學文件建置&lt;/li&gt;
+&lt;li&gt;選單目錄在瀏覽時才會全部展開&lt;/li&gt;
+&lt;li&gt;可以客製化 CSS，調整配色樣式成自己想要的樣式&lt;/li&gt;
+&lt;li&gt;支援多國語言&lt;/li&gt;
+&lt;li&gt;支援標籤分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/learn-cover-home.png&#34; alt=&#34;Learn 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/learn-cover-menu.png&#34; alt=&#34;Learn 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-learn/&#34;&gt;Hugo Theme Learn | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-theme-learn/en/&#34;&gt;Learn Theme for Hugo :: Documentation for Hugo Learn Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/matcornic/hugo-theme-learn/&#34;&gt;matcornic/hugo-theme-learn: Porting Grav Learn theme to Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

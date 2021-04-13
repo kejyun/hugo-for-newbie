@@ -1,0 +1,50 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Doks</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/doks/</link>
+    <description>Recent content in Doks on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 10 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/doks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Doks</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;選單目錄只有單階層，可以用於介紹較簡易的教學文件&lt;/li&gt;
+&lt;li&gt;版面預設設計感比較有質感一點&lt;/li&gt;
+&lt;li&gt;有預設的 SEO 設定&lt;/li&gt;
+&lt;li&gt;文件右方有標題摘要可以快速選擇章節&lt;/li&gt;
+&lt;li&gt;提供「黑暗模式 Dark mode」可以讓閱讀比較不吃力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/doks-cover-home.png&#34; alt=&#34;Doks 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/doks-cover-docs.png&#34; alt=&#34;Doks 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/doks-cover-dark-mode.png&#34; alt=&#34;Doks 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/doks/&#34;&gt;Doks | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://getdoks.org/&#34;&gt;Doks - Modern Documentation Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/h-enk/doks&#34;&gt;h-enk/doks: Hugo theme helping you build modern documentation websites.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

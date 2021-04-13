@@ -1,0 +1,86 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – 變數</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/%E8%AE%8A%E6%95%B8/</link>
+    <description>Recent content in 變數 on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 04 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/%E8%AE%8A%E6%95%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 變數</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/template/variable/</link>
+      <pubDate>Sun, 04 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/template/variable/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;變數&#34;&gt;變數&lt;/h2&gt;
+&lt;h3 id=&#34;列印變數&#34;&gt;列印變數&lt;/h3&gt;
+&lt;p&gt;格式&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-hugo&#34; data-lang=&#34;hugo&#34;&gt;{{ .variable_name }}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;範例&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;{{ .Title }}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;自訂變數&#34;&gt;自訂變數&lt;/h3&gt;
+&lt;p&gt;可以使用 &lt;code&gt;$&lt;/code&gt; 符號去儲存指定的變數資料，並在之後去對這個變數去做處理運算&lt;/p&gt;
+&lt;p&gt;格式&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 字串 --&amp;gt;&lt;/span&gt;
+{{ $variable_name := &amp;#34;variable value&amp;#34;}}
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 其他變數 --&amp;gt;&lt;/span&gt;
+{{ $variable_name := $another_variable}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;範例&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 字串 --&amp;gt;&lt;/span&gt;
+{{ $address := &amp;#34;123 Main St.&amp;#34; }}
+{{ $address }}
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 其他變數 --&amp;gt;&lt;/span&gt;
+{{ $title := .Title }}
+{{ $title }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;變數邏輯測試&#34;&gt;變數邏輯測試&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ $var := &amp;#34;Hugo Page&amp;#34; }}
+{{ if .IsHome }}
+    &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- 首頁 --&amp;gt;&lt;/span&gt;
+    {{ $var = &amp;#34;Hugo Home&amp;#34; }}
+{{ end }}
+Var is {{ $var }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;系統預設變數&#34;&gt;系統預設變數&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;變數名稱&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;th&gt;範例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;.IsHome&lt;/td&gt;
+&lt;td&gt;是否首頁&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.Kind&lt;/td&gt;
+&lt;td&gt;頁面種類&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;section (章節)&lt;/code&gt;, &lt;code&gt;page (頁面)&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/templates/introduction/&#34;&gt;Introduction to Hugo Templating | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,117 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – 安裝</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/%E5%AE%89%E8%A3%9D/</link>
+    <description>Recent content in 安裝 on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/%E5%AE%89%E8%A3%9D/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</link>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;環境需求&#34;&gt;環境需求&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;th&gt;版本&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;hugo&lt;/td&gt;
+&lt;td&gt;0.75.0 以上，需要安裝 extended 版本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用 homebrew 安裝的 hugo 預設為 extended 版本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安裝套件&#34;&gt;安裝套件&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;npm install -g hugo-extended
+npm install -g autoprefixer
+npm install -g postcss-cli
+npm install -g postcss
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;使用-theme-方式安裝-docsy&#34;&gt;使用 theme 方式安裝 docsy&lt;/h2&gt;
+&lt;p&gt;在自己原有的專案將 docsy 用子模組的方式載入安裝至 &lt;code&gt;themes/docsy&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo new site myproject
+cd myproject
+git init
+git submodule add https://github.com/google/docsy.git themes/docsy
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;設定 &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;theme = &amp;#34;docsy&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;更新 docsy 模組的子模組 submodule&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因為 docsy 也有自己的子模組，所以若將原有的 docsy 用成子模組安裝成主題時，必須要再更新子模組的子模組，才可以順利執行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在 docsy 的目錄可以看到 &lt;code&gt;.gitmodules&lt;/code&gt; 檔案有子模組的設定&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;submodule &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;assets/vendor/bootstrap&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; assets/vendor/bootstrap
+	&lt;span style=&#34;color:#000&#34;&gt;url&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; https://github.com/twbs/bootstrap.git
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;submodule &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;assets/vendor/Font-Awesome&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
+	&lt;span style=&#34;color:#000&#34;&gt;path&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; assets/vendor/Font-Awesome
+	&lt;span style=&#34;color:#000&#34;&gt;url&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; https://github.com/FortAwesome/Font-Awesome.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;錯誤處理&#34;&gt;錯誤處理&lt;/h2&gt;
+&lt;p&gt;在安裝過程中有出現以下的訊息，可能的原因有 2 個&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;hugo 沒有安裝 extended 版本&lt;/li&gt;
+&lt;li&gt;docsy 沒有安裝子模組&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server -D
+Start building sites …
+Built in &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;70&lt;/span&gt; ms
+Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;scss/main.scss&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;text/x-scss&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;: SCSS processing failed: file &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;stdin&amp;#34;&lt;/span&gt;, line 6, col 1: File to import not found or unreadable: ../vendor/bootstrap/scss/bootstrap.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/getting-started/&#34;&gt;Getting Started | Docsy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/contributor-site/issues/123&#34;&gt;[docsy] SCSS generation error · Issue #123 · kubernetes/contributor-site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/start/install/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/start/install/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;在-macos-安裝&#34;&gt;在 MacOS 安裝&lt;/h2&gt;
+&lt;h3 id=&#34;使用-homebrew-安裝&#34;&gt;使用 Homebrew 安裝&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Brew 安裝的 hugo 預設為 &lt;code&gt;extended&lt;/code&gt; 的版本，可以編譯 &lt;code&gt;Sass/SCSS &lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;在-ubuntu-安裝&#34;&gt;在 Ubuntu 安裝&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt-get install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安裝教學&#34;&gt;安裝教學&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/WvhCGlLcrF8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

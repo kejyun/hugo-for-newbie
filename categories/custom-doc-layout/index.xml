@@ -1,0 +1,98 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Custom Doc Layout</title>
+    <link>https://hugo-for-newbie.kejyun.com/categories/custom-doc-layout/</link>
+    <description>Recent content in Custom Doc Layout on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 13 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/categories/custom-doc-layout/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 客製化文件版型</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/custom-docs-layout/</link>
+      <pubDate>Tue, 13 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/custom-docs-layout/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;docsy-樣板類型&#34;&gt;Docsy 樣板類型&lt;/h2&gt;
+&lt;p&gt;Docsy 樣板類型有三種&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;類型&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;docs&lt;/td&gt;
+&lt;td&gt;文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;blog&lt;/td&gt;
+&lt;td&gt;部落格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;community&lt;/td&gt;
+&lt;td&gt;社群&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;在 &lt;code&gt;content&lt;/code&gt; 目錄中可以分別建立 &lt;code&gt;docs&lt;/code&gt;、 &lt;code&gt;blog&lt;/code&gt; 、 &lt;code&gt;community&lt;/code&gt; 這三種目錄去建立你的內文，這個目錄會分別針對這三種版型去產生畫面&lt;/p&gt;
+&lt;h2 id=&#34;客製化目錄路徑及版型&#34;&gt;客製化目錄路徑及版型&lt;/h2&gt;
+&lt;p&gt;若你想要有自己客製化的路徑而顯示特定的版型，可以建立完客製化的目錄後，在該目錄的文件 meta 設定加入 &lt;code&gt;type&lt;/code&gt; 的參數，設定該文章畫面類型是哪一種&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;---
+title: &amp;#34;My amazing new section&amp;#34;
+weight: 1
+type: docs
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;客製化目錄同時套用同個版型&#34;&gt;客製化目錄同時套用同個版型&lt;/h2&gt;
+&lt;p&gt;若要指定目錄下同時套用同一個版型，可以在該目錄的 &lt;code&gt;_index.md&lt;/code&gt; 檔案中設定 &lt;code&gt;cascade&lt;/code&gt; 的 &lt;code&gt;type&lt;/code&gt;，這樣該目錄下所有的文章都會套用同一個版型&lt;/p&gt;
+&lt;p&gt;像是下方的 &lt;code&gt;cascade&lt;/code&gt; 的 &lt;code&gt;type&lt;/code&gt; 設定為 &lt;code&gt;blog&lt;/code&gt;，則該目錄下所有的檔案內文皆會用 &lt;code&gt;blog&lt;/code&gt; 版型&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;---
+title: &amp;#34;Latest News&amp;#34;
+linkTitle: &amp;#34;News&amp;#34;
+menu:
+  main:
+    weight: 30
+
+cascade:
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;-&lt;/span&gt; type: &amp;#34;blog&amp;#34;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;指定目錄排除套用版型&#34;&gt;指定目錄排除套用版型&lt;/h2&gt;
+&lt;p&gt;在指定完目錄套用版型，若有某些子目錄想要套用其他版型，可以使用 &lt;code&gt;_target&lt;/code&gt; 指定目錄&lt;/p&gt;
+&lt;p&gt;像是下方的 &lt;code&gt;cascade&lt;/code&gt; 的 &lt;code&gt;type&lt;/code&gt; 設定為 &lt;code&gt;blog&lt;/code&gt;，只會套用在 &lt;code&gt;/news&lt;/code&gt; 目錄&lt;/p&gt;
+&lt;p&gt;而其他所有的目錄則皆會套用 &lt;code&gt;type&lt;/code&gt; 為 &lt;code&gt;docs&lt;/code&gt; 的版型&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;---
+title: &amp;#34;My Wonderful Site&amp;#34;
+
+cascade:
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;-&lt;/span&gt; type: &amp;#34;blog&amp;#34;
+  toc_root: true
+  &lt;span style=&#34;color:#000;font-style:italic&#34;&gt;_target:
+&lt;/span&gt;&lt;span style=&#34;color:#000;font-style:italic&#34;&gt;    path: &amp;#34;/news/*&lt;/span&gt;*&amp;#34;
+&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;-&lt;/span&gt; type: &amp;#34;docs&amp;#34;
+  &lt;span style=&#34;color:#000;font-style:italic&#34;&gt;_target:
+&lt;/span&gt;&lt;span style=&#34;color:#000;font-style:italic&#34;&gt;    path: &amp;#34;/*&lt;/span&gt;*&amp;#34;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這個設定檔案可以放在 &lt;code&gt;content&lt;/code&gt; 目錄的最外層 &lt;code&gt;_index.md&lt;/code&gt;，像是 &lt;code&gt;/content/_index.md&lt;/code&gt;，這樣就可以一次設定整個內文的所有需要套用的版型類型&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/content/&#34;&gt;Adding Content | Docsy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

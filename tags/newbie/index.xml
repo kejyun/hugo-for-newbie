@@ -1,0 +1,132 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Newbie</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/newbie/</link>
+    <description>Recent content in Newbie on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0000</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/newbie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 開始</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/start/</link>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/start/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/start/install/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/start/install/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;在-macos-安裝&#34;&gt;在 MacOS 安裝&lt;/h2&gt;
+&lt;h3 id=&#34;使用-homebrew-安裝&#34;&gt;使用 Homebrew 安裝&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Brew 安裝的 hugo 預設為 &lt;code&gt;extended&lt;/code&gt; 的版本，可以編譯 &lt;code&gt;Sass/SCSS &lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;在-ubuntu-安裝&#34;&gt;在 Ubuntu 安裝&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt-get install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;安裝教學&#34;&gt;安裝教學&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/WvhCGlLcrF8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: 建立網站</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/start/create/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/start/create/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;建立-hugo-網站&#34;&gt;建立 Hugo 網站&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo new site site_name&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo new site  (專案目錄名稱)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site my-hugo-sites
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;啟用-hugo-網站&#34;&gt;啟用 Hugo 網站&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo server -D&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ hugo server -D
+
+Start building sites …
+
+                   &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; ZH
+-------------------+------
+  Pages            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;71&lt;/span&gt;
+  Paginator pages  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;   &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;
+  Non-page files   &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;118&lt;/span&gt;
+  Static files     &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;40&lt;/span&gt;
+  Processed images &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;   &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;
+  Aliases          &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;   &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;
+  Sitemaps         &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;   &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;
+  Cleaned          &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;|&lt;/span&gt;   &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;0&lt;/span&gt;
+
+Built in &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2010&lt;/span&gt; ms
+Environment: &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;development&amp;#34;&lt;/span&gt;
+Serving pages from memory
+Web Server is available at http://localhost:1313/ &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#204a87&#34;&gt;bind&lt;/span&gt; address 127.0.0.1&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+Press Ctrl+C to stop
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;啟用後可以在 &lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt; 看到您的 Hugo 頁面&lt;/p&gt;
+&lt;h2 id=&#34;專案結構&#34;&gt;專案結構&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;.
+├── archetypes
+├── config.toml
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;archetypes-文件預設類型&#34;&gt;archetypes 文件預設類型&lt;/h3&gt;
+&lt;h3 id=&#34;configtoml-網站設定檔案&#34;&gt;config.toml 網站設定檔案&lt;/h3&gt;
+&lt;h3 id=&#34;content-網站文章&#34;&gt;content 網站文章&lt;/h3&gt;
+&lt;h3 id=&#34;data-網站共用資料設定&#34;&gt;data 網站共用資料設定&lt;/h3&gt;
+&lt;h3 id=&#34;layouts-網站樣板&#34;&gt;layouts 網站樣板&lt;/h3&gt;
+&lt;h3 id=&#34;static-網站靜態檔案&#34;&gt;static 網站靜態檔案&lt;/h3&gt;
+&lt;h3 id=&#34;themes-網站主題檔案&#34;&gt;themes 網站主題檔案&lt;/h3&gt;
+&lt;h2 id=&#34;專案建立教學&#34;&gt;專案建立教學&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/sB0HLHjgQ7E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/directory-structure/&#34;&gt;Directory Structure | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;Configure Hugo | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

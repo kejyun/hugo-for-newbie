@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.82.0" /><link rel="canonical" type="text/html" href="https://hugo-for-newbie.kejyun.com/docs/start/">
+<link rel="alternate" type="application/rss&#43;xml" href="https://hugo-for-newbie.kejyun.com/docs/start/index.xml">
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
 
@@ -47,8 +48,8 @@ if (!doNotTrack) {
 
 
 
-<link rel="preload" href="/scss/main.min.2fbc9128320398880ebd6896664b57776242fa0bebf8f540c54b524a38443e77.css" as="style">
-<link href="/scss/main.min.2fbc9128320398880ebd6896664b57776242fa0bebf8f540c54b524a38443e77.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.ae56d4ba8b3b021c807fa8443995ba4dbfdfbaf56d97d5508ebbf3cb31339936.css" as="style">
+<link href="/scss/main.min.ae56d4ba8b3b021c807fa8443995ba4dbfdfbaf56d97d5508ebbf3cb31339936.css" rel="stylesheet" integrity="">
 
 
 <script
@@ -78,16 +79,16 @@ if (!doNotTrack) {
     
         
           
-          "MacOS"
+          "Hugo"
         
           , 
-          "軟體"
+          "開始"
         
           , 
-          "活動監視器"
+          "Beginner"
         
           , 
-          "Activity Monitor"
+          "Newbie"
         
     
     ],
@@ -177,7 +178,7 @@ if (!doNotTrack) {
 		},
 		"mainEntityOfPage": "True",
 		"keywords": [ 
-			"MacOS", "軟體", "活動監視器", "Activity Monitor"
+			"Hugo", "開始", "Beginner", "Newbie"
 		
 		],
 		"genre":["KJ"],
@@ -318,6 +319,18 @@ if (!doNotTrack) {
 				
 				
 				
+				<a class="nav-link" href="/about/" ><span>About</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
 				<a class="nav-link active" href="/docs/" ><i class='fas fa-book'></i><span class="active">教學文件</span></a>
 			</li>
 			
@@ -336,7 +349,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.a89cccfd13854ab8f63bbb2e28d26288.json"
+  data-offline-search-index-json-src="/offline-search-index.6af5a1fe76cb7d9cda3889ed8fd46997.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -384,6 +397,22 @@ if (!doNotTrack) {
   
 
   
+    
+    
+	
+<li>1: <a href="#pg-d5462b9318244f114d1760e7aabea131">安裝</a></li>
+
+
+    
+  
+    
+    
+	
+<li>2: <a href="#pg-1bb44830b20dcaff3cabb2a332985ab1">建立網站</a></li>
+
+
+    
+  
 
     </ul>
 
@@ -402,6 +431,114 @@ if (!doNotTrack) {
   
   
 
+  
+    
+    
+	
+    
+
+<div class="td-content" style="">
+    
+	<h1 id="pg-d5462b9318244f114d1760e7aabea131">1 - 安裝</h1>
+    <div class="lead">開始安裝 hugo 建立個人靜態網站</div>
+	<h2 id="在-macos-安裝">在 MacOS 安裝</h2>
+<h3 id="使用-homebrew-安裝">使用 Homebrew 安裝</h3>
+<blockquote>
+<p>Brew 安裝的 hugo 預設為 <code>extended</code> 的版本，可以編譯 <code>Sass/SCSS </code></p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew install hugo
+</code></pre></div><h2 id="在-ubuntu-安裝">在 Ubuntu 安裝</h2>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get install hugo
+</code></pre></div><h2 id="安裝教學">安裝教學</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/WvhCGlLcrF8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+</div>
+
+
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-1bb44830b20dcaff3cabb2a332985ab1">2 - 建立網站</h1>
+    <div class="lead">建立 Hugo 網站</div>
+	<h2 id="建立-hugo-網站">建立 Hugo 網站</h2>
+<blockquote>
+<p>hugo new site site_name</p>
+</blockquote>
+<blockquote>
+<p>hugo new site  (專案目錄名稱)</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site my-hugo-sites
+</code></pre></div><h2 id="啟用-hugo-網站">啟用 Hugo 網站</h2>
+<blockquote>
+<p>hugo server -D</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ hugo server -D
+
+Start building sites …
+
+                   <span style="color:#000;font-weight:bold">|</span> ZH
+-------------------+------
+  Pages            <span style="color:#000;font-weight:bold">|</span>  <span style="color:#0000cf;font-weight:bold">71</span>
+  Paginator pages  <span style="color:#000;font-weight:bold">|</span>   <span style="color:#0000cf;font-weight:bold">0</span>
+  Non-page files   <span style="color:#000;font-weight:bold">|</span> <span style="color:#0000cf;font-weight:bold">118</span>
+  Static files     <span style="color:#000;font-weight:bold">|</span>  <span style="color:#0000cf;font-weight:bold">40</span>
+  Processed images <span style="color:#000;font-weight:bold">|</span>   <span style="color:#0000cf;font-weight:bold">2</span>
+  Aliases          <span style="color:#000;font-weight:bold">|</span>   <span style="color:#0000cf;font-weight:bold">0</span>
+  Sitemaps         <span style="color:#000;font-weight:bold">|</span>   <span style="color:#0000cf;font-weight:bold">1</span>
+  Cleaned          <span style="color:#000;font-weight:bold">|</span>   <span style="color:#0000cf;font-weight:bold">0</span>
+
+Built in <span style="color:#0000cf;font-weight:bold">2010</span> ms
+Environment: <span style="color:#4e9a06">&#34;development&#34;</span>
+Serving pages from memory
+Web Server is available at http://localhost:1313/ <span style="color:#ce5c00;font-weight:bold">(</span><span style="color:#204a87">bind</span> address 127.0.0.1<span style="color:#ce5c00;font-weight:bold">)</span>
+Press Ctrl+C to stop
+</code></pre></div><p>啟用後可以在 <a href="http://localhost:1313/">http://localhost:1313/</a> 看到您的 Hugo 頁面</p>
+<h2 id="專案結構">專案結構</h2>
+<pre><code>.
+├── archetypes
+├── config.toml
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+</code></pre><h3 id="archetypes-文件預設類型">archetypes 文件預設類型</h3>
+<h3 id="configtoml-網站設定檔案">config.toml 網站設定檔案</h3>
+<h3 id="content-網站文章">content 網站文章</h3>
+<h3 id="data-網站共用資料設定">data 網站共用資料設定</h3>
+<h3 id="layouts-網站樣板">layouts 網站樣板</h3>
+<h3 id="static-網站靜態檔案">static 網站靜態檔案</h3>
+<h3 id="themes-網站主題檔案">themes 網站主題檔案</h3>
+<h2 id="專案建立教學">專案建立教學</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/sB0HLHjgQ7E" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="參考資料">參考資料</h2>
+<ul>
+<li><a href="https://gohugo.io/getting-started/directory-structure/">Directory Structure | Hugo</a></li>
+<li><a href="https://gohugo.io/getting-started/configuration/">Configure Hugo | Hugo</a></li>
+</ul>
+
+</div>
+
+
+
+    
+	
   
 
 
@@ -430,6 +567,12 @@ if (!doNotTrack) {
     </a>
   </li>
   
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Linkedin" aria-label="Linkedin">
+    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://tw.linkedin.com/in/kejyun">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </li>
+  
 </ul>
 
         
@@ -437,9 +580,9 @@ if (!doNotTrack) {
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
         <small class="text-white">&copy; 2021 KeJyun All Rights Reserved</small>
-        <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank">隱私政策</a></small>
+        
 	
-		
+		<p class="mt-2"><a href="/about/">About</a></p>
 	
       </div>
     </div>
