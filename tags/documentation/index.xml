@@ -303,7 +303,7 @@ cascade:
   &lt;span style=&#34;color:#000;font-style:italic&#34;&gt;_target:
 &lt;/span&gt;&lt;span style=&#34;color:#000;font-style:italic&#34;&gt;    path: &amp;#34;/*&lt;/span&gt;*&amp;#34;
 ---
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這個設定檔案可以放在 &lt;code&gt;content&lt;/code&gt; 目錄的最外層 &lt;code&gt;_index.md&lt;/code&gt;，像是 &lt;code&gt;/content/_index.md&lt;/code&gt;，這樣就可以一次設定整個內文的所有需要套用的版型類型&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;這個設定檔案可以放在 &lt;code&gt;content&lt;/code&gt; 目錄的最外層 &lt;code&gt;_index.md&lt;/code&gt;，像是 &lt;code&gt;/content/zh/custom-folder/_index.md&lt;/code&gt;，這樣就可以一次設定整個內文的所有需要套用的版型類型&lt;/p&gt;
 &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/content/&#34;&gt;Adding Content | Docsy&lt;/a&gt;&lt;/li&gt;
