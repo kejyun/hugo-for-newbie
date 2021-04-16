@@ -142,6 +142,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/short-code/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/docs/start/install/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,12 +358,77 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/categories/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/docsy/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/docsy/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/documentation/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/documentation/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/hugo/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/hugo/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/short-code/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/short-code/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/theme/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/theme/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2021-04-16T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -382,51 +452,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/tags/docsy/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/categories/docsy/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/tags/documentation/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/categories/documentation/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/tags/hugo/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/categories/hugo/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/tags/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/tags/theme/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/categories/theme/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/tags/%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%96%87%E4%BB%B6%E7%89%88%E5%9E%8B/</loc>
     <lastmod>2021-04-13T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -443,16 +468,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/categories/%E5%AE%A2%E8%A3%BD%E5%8C%96%E6%96%87%E4%BB%B6%E7%B6%B2%E5%9D%80/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/tags/%E6%96%87%E4%BB%B6/</loc>
-    <lastmod>2021-04-13T08:50:29+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/categories/%E6%96%87%E4%BB%B6/</loc>
     <lastmod>2021-04-13T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

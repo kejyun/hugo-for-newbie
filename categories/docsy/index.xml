@@ -5,7 +5,7 @@
     <description>Recent content in Docsy on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 13 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Apr 2021 08:50:29 +0000</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/categories/docsy/index.xml" rel="self" type="application/rss+xml" />
     
@@ -246,6 +246,204 @@ cascade:
 &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/content/&#34;&gt;Adding Content | Docsy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Short Code</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/short-code/</link>
+      <pubDate>Fri, 16 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/short-code/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;封面區塊-blockscover&#34;&gt;封面區塊 blocks/cover&lt;/h2&gt;
+&lt;p&gt;在 Docsy 可以自訂的首頁封面區塊，像是下方的 short code 及示意圖&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;blocks&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#c4a000&#34;&gt;cover&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Welcome!&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;image_anchor&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;center&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;full&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;primary&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;封面高度-height&#34;&gt;封面高度 height&lt;/h3&gt;
+&lt;p&gt;可以針對封面去設定 &lt;code&gt;height&lt;/code&gt; 參數去修改封面圖片的滿版高度編排方式&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;height 參數&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;full&lt;/td&gt;
+&lt;td&gt;滿版&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;auto&lt;/td&gt;
+&lt;td&gt;自動&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;min&lt;/td&gt;
+&lt;td&gt;小&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;med&lt;/td&gt;
+&lt;td&gt;中&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;max&lt;/td&gt;
+&lt;td&gt;大&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;full-滿版&#34;&gt;full 滿版&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;填滿整個畫面&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-height-full.png&#34; alt=&#34;封面圖片&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;auto-自動&#34;&gt;auto 自動&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;針對內文自動調整高度&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-height-auto.png&#34; alt=&#34;封面圖片&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;min-小&#34;&gt;min 小&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-height-min.png&#34; alt=&#34;封面圖片&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;med-中&#34;&gt;med 中&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-height-med.png&#34; alt=&#34;封面圖片&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;max-大&#34;&gt;max 大&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-height-max.png&#34; alt=&#34;封面圖片&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;封面底色-color&#34;&gt;封面底色 color&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;{{ % blocks/lead color=&amp;quot;dark&amp;quot; % }}
+TechOS is the OS of the future.
+
+Runs on **bare metal** in the **cloud**!
+{{ % /blocks/lead % }}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;可以針對封面去設定 &lt;code&gt;color&lt;/code&gt; 參數去修改封面主要底色&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;color 參數&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;primary&lt;/td&gt;
+&lt;td&gt;主色系&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;white&lt;/td&gt;
+&lt;td&gt;白色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dark&lt;/td&gt;
+&lt;td&gt;暗色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;warning&lt;/td&gt;
+&lt;td&gt;警告&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;light&lt;/td&gt;
+&lt;td&gt;亮色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;success&lt;/td&gt;
+&lt;td&gt;成功&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;300&lt;/td&gt;
+&lt;td&gt;灰色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;blue&lt;/td&gt;
+&lt;td&gt;藍色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;orange&lt;/td&gt;
+&lt;td&gt;橘色&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;primary-主色系&#34;&gt;primary 主色系&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-primary.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;white-白色&#34;&gt;white 白色&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-white.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;dark-暗色&#34;&gt;dark 暗色&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-dark.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;warning-警告&#34;&gt;warning 警告&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-warning.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;light-亮色&#34;&gt;light 亮色&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-light.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;success-成功&#34;&gt;success 成功&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-success.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;300-灰色&#34;&gt;300 灰色&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-300.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;blue-藍色&#34;&gt;blue 藍色&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-blue.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;orange-橘色&#34;&gt;orange 橘色&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;../images/docsy-short-code-blocks-cover-color-orange.png&#34; alt=&#34;區塊底色&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;提示-alert&#34;&gt;提示 alert&lt;/h2&gt;
+&lt;p&gt;可以使用 &lt;code&gt;alert&lt;/code&gt; 特別設定需要強調的文字，像是&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{{&lt;/span&gt; % alert &lt;span style=&#34;color:#000&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Warning&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;warning&amp;#34;&lt;/span&gt; % &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}}&lt;/span&gt;
+  This is a warning.
+&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{{&lt;/span&gt; % /alert % &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;primary&lt;/h4&gt;
+
+    This is a primary.
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-white&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;white&lt;/h4&gt;
+
+    This is a white.
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-dark&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;dark&lt;/h4&gt;
+
+    This is a dark.
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;warning&lt;/h4&gt;
+
+    This is a warning.
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-light&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;light&lt;/h4&gt;
+
+    This is a light.
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;success&lt;/h4&gt;
+
+    This is a success.
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/adding-content/shortcodes/&#34;&gt;Docsy Shortcodes | Docsy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
