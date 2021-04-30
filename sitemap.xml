@@ -17,7 +17,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -37,12 +37,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -57,7 +57,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/doks/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -77,7 +77,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/partials/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/partials/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -87,7 +87,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/learn/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -97,12 +97,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/style/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/style/</loc>
     <lastmod>2021-04-07T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/search/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/search/</loc>
     <lastmod>2021-04-07T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -122,7 +122,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/custom-docs-layout/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/custom-docs-layout/</loc>
     <lastmod>2021-04-13T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -132,7 +132,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docu-api/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -142,7 +142,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/short-code/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/short-code/</loc>
     <lastmod>2021-04-16T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -157,12 +157,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/resume/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/resume/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -182,162 +182,167 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/kross/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/kross/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/soho/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/developer/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/developer/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/ananke/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/ananke/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/elate/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/elate/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/designer/liva/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/designer/liva/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/designer/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/designer/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/future-imperfect/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/github-style/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/news/hugonews/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/reveal/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/presentation/reveal/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/presentation/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/developer/base16/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/developer/base16/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/designer/creative-portfolio/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/designer/creative-portfolio/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/influencer/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/influencer/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/northendlab/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/resume/toha/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/resume/toha/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/resume/somrat/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/resume/somrat/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/bilberry/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/bilberry/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/love-it/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/fresh/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/airspace/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/pure/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/fresh/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/hyde-hyde/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/pure/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/resto/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/hyde-hyde/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/resto/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/brand/restaurant/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/clean-white/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/brand/restaurant/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/news/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/m10c/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/news/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/blog/beautiful/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/developer/console/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/developer/console/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/developer/hugo-386/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/developer/hugo-386/</loc>
     <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -347,7 +352,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/docs/theme/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/theme/</loc>
     <lastmod>2021-04-02T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -542,12 +547,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/tags/future-imperfect/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/future-imperfect-slim/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-for-newbie.kejyun.com/categories/future-imperfect/</loc>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/future-imperfect-slim/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -799,6 +804,16 @@
   </url><url>
     <loc>https://hugo-for-newbie.kejyun.com/categories/%E9%96%8B%E5%A7%8B/</loc>
     <lastmod>2021-04-11T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/tags/airspace/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://hugo-for-newbie.kejyun.com/categories/airspace/</loc>
+    <lastmod>2021-04-10T08:50:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

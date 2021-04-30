@@ -16,11 +16,11 @@
     
     
     <item>
-      <title>Docs: Docsy</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/</link>
+      <title>Theme: Docsy</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</guid>
       <description>
         
         
@@ -45,11 +45,11 @@
     </item>
     
     <item>
-      <title>Docs: 安裝</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</link>
+      <title>Theme: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</guid>
       <description>
         
         
@@ -116,11 +116,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Doks</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</link>
+      <title>Theme: Doks</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/doks/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/doks/</guid>
       <description>
         
         
@@ -147,11 +147,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Learn</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</link>
+      <title>Theme: Learn</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/learn/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/learn/</guid>
       <description>
         
         
@@ -177,11 +177,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: DocuAPI</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</link>
+      <title>Theme: DocuAPI</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docu-api/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docu-api/</guid>
       <description>
         
         
@@ -204,15 +204,19 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 部落格 Blog 主題</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</link>
+      <title>Theme: 部落格 Blog 主題</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/</guid>
       <description>
         
         
-        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+        &lt;h2 id=&#34;推薦清單&#34;&gt;推薦清單&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/bigspring-hugo-startup-theme/&#34;&gt;Bigspring Hugo Startup Theme | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/tags/blog/&#34;&gt;blog | Hugo Themes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -221,11 +225,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 履歷 Resume 主題樣板</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/resume/</link>
+      <title>Theme: 履歷 Resume 主題樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/resume/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/resume/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/resume/</guid>
       <description>
         
         
@@ -238,11 +242,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Kross</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/brand/kross/</link>
+      <title>Theme: Kross</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/kross/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/brand/kross/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/kross/</guid>
       <description>
         
         
@@ -269,11 +273,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Soho</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</link>
+      <title>Theme: Soho</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/soho/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/soho/</guid>
       <description>
         
         
@@ -296,11 +300,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 工程師 Developer 主題樣板</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/</link>
+      <title>Theme: 工程師 Developer 主題樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/developer/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/developer/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/developer/</guid>
       <description>
         
         
@@ -313,11 +317,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Ananke</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/ananke/</link>
+      <title>Theme: Ananke</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/ananke/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/ananke/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/ananke/</guid>
       <description>
         
         
@@ -342,11 +346,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Elate</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/brand/elate/</link>
+      <title>Theme: Elate</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/elate/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/brand/elate/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/elate/</guid>
       <description>
         
         
@@ -372,11 +376,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Liva</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/designer/liva/</link>
+      <title>Theme: Liva</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/designer/liva/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/designer/liva/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/designer/liva/</guid>
       <description>
         
         
@@ -399,11 +403,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 設計師 Designer 主題樣板</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/designer/</link>
+      <title>Theme: 設計師 Designer 主題樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/designer/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/designer/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/designer/</guid>
       <description>
         
         
@@ -416,11 +420,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Future Imperfect</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/future-imperfect/</link>
+      <title>Theme: Future Imperfect Slim</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/future-imperfect/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</guid>
       <description>
         
         
@@ -429,9 +433,9 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
 &lt;li&gt;多國語系&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-home.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-article.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-tags.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-home.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-article.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-tags.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-future-imperfect-slim/&#34;&gt;Hugo Future Imperfect Slim | Hugo Themes&lt;/a&gt;&lt;/li&gt;
@@ -443,11 +447,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Github Style</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</link>
+      <title>Theme: Github Style</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/github-style/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/github-style/</guid>
       <description>
         
         
@@ -473,11 +477,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: hugonews</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/news/hugonews/</link>
+      <title>Theme: hugonews</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/news/hugonews/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</guid>
       <description>
         
         
@@ -495,11 +499,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Reveal</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/reveal/</link>
+      <title>Theme: Reveal</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/presentation/reveal/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/reveal/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/presentation/reveal/</guid>
       <description>
         
         
@@ -521,11 +525,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 投影片 Presentation 主題樣板</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/</link>
+      <title>Theme: 投影片 Presentation 主題樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/presentation/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/presentation/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/presentation/</guid>
       <description>
         
         
@@ -538,11 +542,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Base16</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/base16/</link>
+      <title>Theme: Base16</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/developer/base16/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/developer/base16/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/developer/base16/</guid>
       <description>
         
         
@@ -560,11 +564,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Creative portfolio</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/designer/creative-portfolio/</link>
+      <title>Theme: Creative portfolio</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/designer/creative-portfolio/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/designer/creative-portfolio/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/designer/creative-portfolio/</guid>
       <description>
         
         
@@ -584,11 +588,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Influencer</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/brand/influencer/</link>
+      <title>Theme: Influencer</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/influencer/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/brand/influencer/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/influencer/</guid>
       <description>
         
         
@@ -613,11 +617,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Northendlab</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</link>
+      <title>Theme: Northendlab</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/northendlab/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/northendlab/</guid>
       <description>
         
         
@@ -636,11 +640,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Toha</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/resume/toha/</link>
+      <title>Theme: Toha</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/resume/toha/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/resume/toha/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/resume/toha/</guid>
       <description>
         
         
@@ -667,11 +671,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 品牌形象主題樣板</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/brand/</link>
+      <title>Theme: 品牌形象主題樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/brand/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/</guid>
       <description>
         
         
@@ -684,11 +688,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Somrat</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/resume/somrat/</link>
+      <title>Theme: Somrat</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/resume/somrat/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/resume/somrat/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/resume/somrat/</guid>
       <description>
         
         
@@ -716,11 +720,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Bilberry</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/bilberry/</link>
+      <title>Theme: Bilberry</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/bilberry/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/bilberry/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/bilberry/</guid>
       <description>
         
         
@@ -743,11 +747,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: LoveIt</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</link>
+      <title>Theme: LoveIt</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/love-it/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/love-it/</guid>
       <description>
         
         
@@ -770,11 +774,39 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Fresh</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/brand/fresh/</link>
+      <title>Theme: Airspace</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/airspace/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/brand/fresh/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/airspace/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-home.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-blog.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-tags.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-contact.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/airspace-hugo/&#34;&gt;Airspace Hugo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/airspace-hugo/&#34;&gt;Airspace Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/themefisher/airspace-hugo&#34;&gt;themefisher/airspace-hugo: Airspace theme (Hugo version)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Theme: Fresh</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/fresh/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/fresh/</guid>
       <description>
         
         
@@ -797,11 +829,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Pure</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/pure/</link>
+      <title>Theme: Pure</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/pure/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/pure/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/pure/</guid>
       <description>
         
         
@@ -824,11 +856,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: hyde-hyde</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/hyde-hyde/</link>
+      <title>Theme: hyde-hyde</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/hyde-hyde/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/hyde-hyde/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/hyde-hyde/</guid>
       <description>
         
         
@@ -851,11 +883,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Resto</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/brand/resto/</link>
+      <title>Theme: Resto</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/resto/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/brand/resto/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/resto/</guid>
       <description>
         
         
@@ -881,11 +913,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Clean White</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</link>
+      <title>Theme: Clean White</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/clean-white/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/clean-white/</guid>
       <description>
         
         
@@ -908,11 +940,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Restaurant</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/brand/restaurant/</link>
+      <title>Theme: Restaurant</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/restaurant/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/brand/restaurant/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/restaurant/</guid>
       <description>
         
         
@@ -936,11 +968,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: m10c</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</link>
+      <title>Theme: m10c</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/m10c/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/m10c/</guid>
       <description>
         
         
@@ -963,11 +995,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 新聞 News 主題樣板</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/news/</link>
+      <title>Theme: 新聞 News 主題樣板</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/news/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/news/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/news/</guid>
       <description>
         
         
@@ -980,11 +1012,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Beautiful</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</link>
+      <title>Theme: Beautiful</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/beautiful/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/beautiful/</guid>
       <description>
         
         
@@ -1007,11 +1039,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Hugo Theme Console</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/console/</link>
+      <title>Theme: Hugo Theme Console</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/developer/console/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/developer/console/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/developer/console/</guid>
       <description>
         
         
@@ -1030,11 +1062,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Hugo.386</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/developer/hugo-386/</link>
+      <title>Theme: Hugo.386</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/developer/hugo-386/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/developer/hugo-386/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/developer/hugo-386/</guid>
       <description>
         
         
@@ -1058,11 +1090,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 主題 Theme</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/</link>
+      <title>Theme: 主題 Theme</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/</guid>
       <description>
         
         

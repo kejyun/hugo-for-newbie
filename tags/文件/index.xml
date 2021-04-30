@@ -16,11 +16,11 @@
     
     
     <item>
-      <title>Docs: Docsy</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/</link>
+      <title>Theme: Docsy</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</guid>
       <description>
         
         
@@ -45,11 +45,11 @@
     </item>
     
     <item>
-      <title>Docs: 安裝</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</link>
+      <title>Theme: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</link>
       <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/install/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</guid>
       <description>
         
         
@@ -116,11 +116,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Doks</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</link>
+      <title>Theme: Doks</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/doks/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/doks/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/doks/</guid>
       <description>
         
         
@@ -147,11 +147,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: Learn</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</link>
+      <title>Theme: Learn</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/learn/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/learn/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/learn/</guid>
       <description>
         
         
@@ -177,11 +177,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 客製化 CSS</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/style/</link>
+      <title>Theme: 客製化 CSS</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/style/</link>
       <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/style/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/style/</guid>
       <description>
         
         
@@ -207,11 +207,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 搜尋</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/search/</link>
+      <title>Theme: 搜尋</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/search/</link>
       <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/search/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/search/</guid>
       <description>
         
         
@@ -234,11 +234,11 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     </item>
     
     <item>
-      <title>Docs: 客製化文件版型</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/custom-docs-layout/</link>
+      <title>Theme: 客製化文件版型</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/custom-docs-layout/</link>
       <pubDate>Tue, 13 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/custom-docs-layout/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/custom-docs-layout/</guid>
       <description>
         
         
@@ -313,11 +313,11 @@ cascade:
     </item>
     
     <item>
-      <title>Docs: DocuAPI</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</link>
+      <title>Theme: DocuAPI</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docu-api/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docu-api/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docu-api/</guid>
       <description>
         
         
@@ -340,11 +340,11 @@ cascade:
     </item>
     
     <item>
-      <title>Docs: Short Code</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/short-code/</link>
+      <title>Theme: Short Code</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/short-code/</link>
       <pubDate>Fri, 16 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/documentation/docsy/short-code/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/short-code/</guid>
       <description>
         
         

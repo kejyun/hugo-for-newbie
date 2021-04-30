@@ -16,15 +16,19 @@
     
     
     <item>
-      <title>Docs: 部落格 Blog 主題</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</link>
+      <title>Theme: 部落格 Blog 主題</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/</guid>
       <description>
         
         
-        &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+        &lt;h2 id=&#34;推薦清單&#34;&gt;推薦清單&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/bigspring-hugo-startup-theme/&#34;&gt;Bigspring Hugo Startup Theme | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/tags/blog/&#34;&gt;blog | Hugo Themes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -33,11 +37,11 @@
     </item>
     
     <item>
-      <title>Docs: Soho</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</link>
+      <title>Theme: Soho</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/soho/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/soho/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/soho/</guid>
       <description>
         
         
@@ -60,11 +64,11 @@
     </item>
     
     <item>
-      <title>Docs: Ananke</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/ananke/</link>
+      <title>Theme: Ananke</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/ananke/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/ananke/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/ananke/</guid>
       <description>
         
         
@@ -89,11 +93,11 @@
     </item>
     
     <item>
-      <title>Docs: Future Imperfect</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/future-imperfect/</link>
+      <title>Theme: Future Imperfect Slim</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/future-imperfect/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</guid>
       <description>
         
         
@@ -102,9 +106,9 @@
 &lt;li&gt;多國語系&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-home.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-article.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-tags.png&#34; alt=&#34;Future Imperfect 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-home.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-article.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-tags.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-future-imperfect-slim/&#34;&gt;Hugo Future Imperfect Slim | Hugo Themes&lt;/a&gt;&lt;/li&gt;
@@ -116,11 +120,11 @@
     </item>
     
     <item>
-      <title>Docs: Github Style</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</link>
+      <title>Theme: Github Style</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/github-style/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/github-style/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/github-style/</guid>
       <description>
         
         
@@ -146,11 +150,11 @@
     </item>
     
     <item>
-      <title>Docs: Northendlab</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</link>
+      <title>Theme: Northendlab</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/northendlab/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/northendlab/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/northendlab/</guid>
       <description>
         
         
@@ -169,11 +173,11 @@
     </item>
     
     <item>
-      <title>Docs: Bilberry</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/bilberry/</link>
+      <title>Theme: Bilberry</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/bilberry/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/bilberry/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/bilberry/</guid>
       <description>
         
         
@@ -196,11 +200,11 @@
     </item>
     
     <item>
-      <title>Docs: LoveIt</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</link>
+      <title>Theme: LoveIt</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/love-it/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/love-it/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/love-it/</guid>
       <description>
         
         
@@ -223,11 +227,39 @@
     </item>
     
     <item>
-      <title>Docs: Pure</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/pure/</link>
+      <title>Theme: Airspace</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/brand/airspace/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/pure/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/brand/airspace/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤類別分類&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-home.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-blog.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-tags.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/airspace-cover-contact.png&#34; alt=&#34;Airspace 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/airspace-hugo/&#34;&gt;Airspace Hugo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/airspace-hugo/&#34;&gt;Airspace Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/themefisher/airspace-hugo&#34;&gt;themefisher/airspace-hugo: Airspace theme (Hugo version)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Theme: Pure</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/pure/</link>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/pure/</guid>
       <description>
         
         
@@ -250,11 +282,11 @@
     </item>
     
     <item>
-      <title>Docs: hyde-hyde</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/hyde-hyde/</link>
+      <title>Theme: hyde-hyde</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/hyde-hyde/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/hyde-hyde/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/hyde-hyde/</guid>
       <description>
         
         
@@ -277,11 +309,11 @@
     </item>
     
     <item>
-      <title>Docs: Clean White</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</link>
+      <title>Theme: Clean White</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/clean-white/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/clean-white/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/clean-white/</guid>
       <description>
         
         
@@ -304,11 +336,11 @@
     </item>
     
     <item>
-      <title>Docs: m10c</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</link>
+      <title>Theme: m10c</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/m10c/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/m10c/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/m10c/</guid>
       <description>
         
         
@@ -331,11 +363,11 @@
     </item>
     
     <item>
-      <title>Docs: Beautiful</title>
-      <link>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</link>
+      <title>Theme: Beautiful</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/beautiful/</link>
       <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
       
-      <guid>https://hugo-for-newbie.kejyun.com/docs/theme/blog/beautiful/</guid>
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/beautiful/</guid>
       <description>
         
         
