@@ -5,7 +5,7 @@
     <description>Recent content in Hugo on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 16 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Apr 2021 08:50:29 +0000</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -1614,6 +1614,36 @@ Press Ctrl+C to stop
     </item>
     
     <item>
+      <title>Theme: Stack</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</link>
+      <pubDate>Fri, 30 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;標籤分類&lt;/li&gt;
+&lt;li&gt;Darkmode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-home.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-1.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-2.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-tags.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-category.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;&gt;Hugo Theme Stack | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://demo.stack.jimmycai.com/&#34;&gt;Stack Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CaiJimmy/hugo-theme-stack.git&#34;&gt;CaiJimmy/hugo-theme-stack: Card-style Hugo theme designed for bloggers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Theme: hugonews</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
@@ -1771,37 +1801,6 @@ Press Ctrl+C to stop
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/northendlab-hugo/&#34;&gt;Northendlab Hugo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/northendlab-hugo/&#34;&gt;Northendlab | Blog Template&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gethugothemes/northendlab-hugo&#34;&gt;gethugothemes/northendlab-hugo: Hugo blog template.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Theme: Toha</title>
-      <link>https://hugo-for-newbie.kejyun.com/theme/resume/toha/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
-      
-      <guid>https://hugo-for-newbie.kejyun.com/theme/resume/toha/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;多國語系&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;./images/toha-cover-home.png&#34; alt=&#34;Toha 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/toha-cover-education.png&#34; alt=&#34;Toha 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/toha-cover-experience.png&#34; alt=&#34;Toha 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/toha-cover-projects.png&#34; alt=&#34;Toha 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/toha-cover-skills.png&#34; alt=&#34;Toha 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/toha-cover-article.png&#34; alt=&#34;Toha 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/toha-cover-article-list.png&#34; alt=&#34;Toha 封面照&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/toha/&#34;&gt;Toha | Hugo Themes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://toha-guides.netlify.app/&#34;&gt;Toha Theme Demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hugo-toha/toha&#34;&gt;hugo-toha/toha: A Hugo theme for personal portfolio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

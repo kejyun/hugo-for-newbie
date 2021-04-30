@@ -5,7 +5,7 @@
     <description>Recent content in Theme on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 16 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Apr 2021 08:50:29 +0000</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
@@ -828,6 +828,36 @@ Runs on **bare metal** in the **cloud**!
     </item>
     
     <item>
+      <title>Theme: Stack</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</link>
+      <pubDate>Fri, 30 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;標籤分類&lt;/li&gt;
+&lt;li&gt;Darkmode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-home.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-1.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-2.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-tags.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-category.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;&gt;Hugo Theme Stack | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://demo.stack.jimmycai.com/&#34;&gt;Stack Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CaiJimmy/hugo-theme-stack.git&#34;&gt;CaiJimmy/hugo-theme-stack: Card-style Hugo theme designed for bloggers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Theme: hugonews</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
@@ -1092,6 +1122,34 @@ Runs on **bare metal** in the **cloud**!
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/bilberry-hugo-theme/&#34;&gt;Bilberry Hugo Theme | Hugo Themes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/bilberry-hugo-theme/&#34;&gt;Bilberry Theme Demo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Lednerb/bilberry-hugo-theme&#34;&gt;Lednerb/bilberry-hugo-theme: Premium theme for the hugo site builder. DEMO:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Theme: uBlogger</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/ublogger/</link>
+      <pubDate>Fri, 30 Apr 2021 08:50:29 +0000</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/ublogger/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;文章標籤分類&lt;/li&gt;
+&lt;li&gt;文章大綱摘要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ublogger-cover-home.png&#34; alt=&#34;uBlogger 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ublogger-cover-article.png&#34; alt=&#34;uBlogger 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/ublogger-cover-tags.png&#34; alt=&#34;uBlogger 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/ublogger/&#34;&gt;uBlogger Hugo Theme | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ublogger.netlify.app/&#34;&gt;uBlogger Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/uPagge/uBlogger&#34;&gt;uPagge/uBlogger: A template designed with your readers in mind&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
