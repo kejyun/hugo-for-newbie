@@ -5,7 +5,7 @@
     <description>Recent content in Theme on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 30 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 May 2021 08:50:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/categories/theme/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
     <item>
       <title>Theme: Docsy</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</guid>
       <description>
@@ -47,7 +47,7 @@
     <item>
       <title>Theme: 安裝</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</guid>
       <description>
@@ -118,7 +118,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: Doks</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/doks/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/doks/</guid>
       <description>
@@ -149,7 +149,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: Learn</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/learn/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/learn/</guid>
       <description>
@@ -179,7 +179,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Docs: 內文</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/content/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/docs/content/</guid>
       <description>
@@ -196,7 +196,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: 客製化 CSS</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/style/</link>
-      <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Wed, 07 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/style/</guid>
       <description>
@@ -226,7 +226,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: 搜尋</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/search/</link>
-      <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Wed, 07 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/search/</guid>
       <description>
@@ -253,7 +253,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: 客製化文件版型</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/custom-docs-layout/</link>
-      <pubDate>Tue, 13 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Tue, 13 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/custom-docs-layout/</guid>
       <description>
@@ -332,7 +332,7 @@ cascade:
     <item>
       <title>Theme: DocuAPI</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docu-api/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docu-api/</guid>
       <description>
@@ -359,7 +359,7 @@ cascade:
     <item>
       <title>Theme: Short Code</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/short-code/</link>
-      <pubDate>Fri, 16 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 16 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/short-code/</guid>
       <description>
@@ -555,9 +555,101 @@ Runs on **bare metal** in the **cloud**!
     </item>
     
     <item>
+      <title>Theme: Stack</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</link>
+      <pubDate>Fri, 30 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;標籤分類&lt;/li&gt;
+&lt;li&gt;Darkmode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-home.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-1.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-2.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-tags.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/stack-cover-category.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;&gt;Hugo Theme Stack | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://demo.stack.jimmycai.com/&#34;&gt;Stack Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CaiJimmy/hugo-theme-stack.git&#34;&gt;CaiJimmy/hugo-theme-stack: Card-style Hugo theme designed for bloggers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Theme: Zzo</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/zzo/</link>
+      <pubDate>Wed, 19 May 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/zzo/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;標籤分類&lt;/li&gt;
+&lt;li&gt;相簿&lt;/li&gt;
+&lt;li&gt;投影片&lt;/li&gt;
+&lt;li&gt;Darkmode 背景顏色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-home.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-about.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-tags.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-gallery.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-presentation-list.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-presentation.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-article-list.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-article-light.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-zzo/&#34;&gt;Hugo Theme Zzo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-theme-zzo/en/&#34;&gt;Zzo Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zzossig/hugo-theme-zzo&#34;&gt;zzossig/hugo-theme-zzo: Make a blog with hugo zzo theme!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Theme: Future Imperfect Slim</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;多國語系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-home.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-article.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-tags.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-future-imperfect-slim/&#34;&gt;Hugo Future Imperfect Slim | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-future-imperfect-slim/&#34;&gt;Future Imperfect Theme Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pacollins/hugo-future-imperfect-slim&#34;&gt;pacollins/hugo-future-imperfect-slim: Multilingual Blogging Theme for Hugo | Check the Wiki for Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Theme: 部落格 Blog 主題</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/</guid>
       <description>
@@ -578,7 +670,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: 履歷 Resume 主題樣板</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/resume/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/resume/</guid>
       <description>
@@ -595,7 +687,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Kross</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/kross/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/kross/</guid>
       <description>
@@ -626,7 +718,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Soho</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/soho/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/soho/</guid>
       <description>
@@ -653,7 +745,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: 工程師 Developer 主題樣板</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/developer/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/developer/</guid>
       <description>
@@ -670,7 +762,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Ananke</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/ananke/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/ananke/</guid>
       <description>
@@ -699,7 +791,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Elate</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/elate/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/elate/</guid>
       <description>
@@ -729,7 +821,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Liva</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/designer/liva/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/designer/liva/</guid>
       <description>
@@ -756,7 +848,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: 設計師 Designer 主題樣板</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/designer/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/designer/</guid>
       <description>
@@ -771,36 +863,9 @@ Runs on **bare metal** in the **cloud**!
     </item>
     
     <item>
-      <title>Theme: Future Imperfect Slim</title>
-      <link>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
-      
-      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/future-imperfect-slim/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;多國語系&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-home.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-article.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/future-imperfect-cover-tags.png&#34; alt=&#34;Future Imperfect Slim 封面照&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-future-imperfect-slim/&#34;&gt;Hugo Future Imperfect Slim | Hugo Themes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-future-imperfect-slim/&#34;&gt;Future Imperfect Theme Demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/pacollins/hugo-future-imperfect-slim&#34;&gt;pacollins/hugo-future-imperfect-slim: Multilingual Blogging Theme for Hugo | Check the Wiki for Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Theme: Github Style</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/github-style/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/github-style/</guid>
       <description>
@@ -828,39 +893,9 @@ Runs on **bare metal** in the **cloud**!
     </item>
     
     <item>
-      <title>Theme: Stack</title>
-      <link>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</link>
-      <pubDate>Fri, 30 Apr 2021 08:50:29 +0000</pubDate>
-      
-      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/stack/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;標籤分類&lt;/li&gt;
-&lt;li&gt;Darkmode&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;./images/stack-cover-home.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-1.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/stack-cover-article-2.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/stack-cover-tags.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/stack-cover-category.png&#34; alt=&#34;Stack 封面照&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-stack/&#34;&gt;Hugo Theme Stack | Hugo Themes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://demo.stack.jimmycai.com/&#34;&gt;Stack Demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/CaiJimmy/hugo-theme-stack.git&#34;&gt;CaiJimmy/hugo-theme-stack: Card-style Hugo theme designed for bloggers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Theme: hugonews</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</guid>
       <description>
@@ -882,7 +917,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Reveal</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/presentation/reveal/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/presentation/reveal/</guid>
       <description>
@@ -908,7 +943,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: 投影片 Presentation 主題樣板</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/presentation/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/presentation/</guid>
       <description>
@@ -925,7 +960,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Base16</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/developer/base16/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/developer/base16/</guid>
       <description>
@@ -947,7 +982,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Creative portfolio</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/designer/creative-portfolio/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/designer/creative-portfolio/</guid>
       <description>
@@ -971,7 +1006,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Influencer</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/influencer/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/influencer/</guid>
       <description>
@@ -1000,7 +1035,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Northendlab</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/northendlab/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/northendlab/</guid>
       <description>
@@ -1023,7 +1058,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Toha</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/resume/toha/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/resume/toha/</guid>
       <description>
@@ -1054,7 +1089,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: 品牌形象主題樣板</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/</guid>
       <description>
@@ -1071,7 +1106,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Somrat</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/resume/somrat/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/resume/somrat/</guid>
       <description>
@@ -1103,7 +1138,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Bilberry</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/bilberry/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/bilberry/</guid>
       <description>
@@ -1130,7 +1165,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: uBlogger</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/ublogger/</link>
-      <pubDate>Fri, 30 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 30 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/ublogger/</guid>
       <description>
@@ -1158,7 +1193,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: LoveIt</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/love-it/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/love-it/</guid>
       <description>
@@ -1185,7 +1220,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Airspace</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/airspace/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/airspace/</guid>
       <description>
@@ -1213,7 +1248,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Fresh</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/fresh/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/fresh/</guid>
       <description>
@@ -1240,7 +1275,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Pure</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/pure/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/pure/</guid>
       <description>
@@ -1267,7 +1302,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: hyde-hyde</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/hyde-hyde/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/hyde-hyde/</guid>
       <description>
@@ -1294,7 +1329,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Resto</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/resto/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/resto/</guid>
       <description>
@@ -1324,7 +1359,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Clean White</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/clean-white/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/clean-white/</guid>
       <description>
@@ -1351,7 +1386,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Restaurant</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/brand/restaurant/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/brand/restaurant/</guid>
       <description>
@@ -1379,7 +1414,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: m10c</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/m10c/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/m10c/</guid>
       <description>
@@ -1406,7 +1441,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: 新聞 News 主題樣板</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/news/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/news/</guid>
       <description>
@@ -1423,7 +1458,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Beautiful</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/beautiful/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/blog/beautiful/</guid>
       <description>
@@ -1450,7 +1485,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Hugo Theme Console</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/developer/console/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/developer/console/</guid>
       <description>
@@ -1473,7 +1508,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: Hugo.386</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/developer/hugo-386/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/developer/hugo-386/</guid>
       <description>
@@ -1501,7 +1536,7 @@ Runs on **bare metal** in the **cloud**!
     <item>
       <title>Theme: 主題 Theme</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/</guid>
       <description>

@@ -5,7 +5,7 @@
     <description>Recent content in 安裝 on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/%E5%AE%89%E8%A3%9D/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
     <item>
       <title>Theme: 安裝</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</guid>
       <description>
@@ -89,7 +89,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Docs: 安裝</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/start/install/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/docs/start/install/</guid>
       <description>

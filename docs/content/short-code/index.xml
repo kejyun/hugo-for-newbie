@@ -5,7 +5,7 @@
     <description>Recent content in Shortcodes on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 10 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Apr 2021 08:50:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/docs/content/short-code/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
     <item>
       <title>Docs: Youtube</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/content/short-code/youtube/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/docs/content/short-code/youtube/</guid>
       <description>
@@ -51,7 +51,7 @@
     <item>
       <title>Docs: Twitter</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/content/short-code/twitter/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/docs/content/short-code/twitter/</guid>
       <description>
@@ -82,7 +82,7 @@
     <item>
       <title>Docs: Github Gist</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/content/short-code/gist/</link>
-      <pubDate>Sat, 10 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/docs/content/short-code/gist/</guid>
       <description>

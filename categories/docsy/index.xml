@@ -5,7 +5,7 @@
     <description>Recent content in Docsy on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 16 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Apr 2021 08:50:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/categories/docsy/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
     <item>
       <title>Theme: Docsy</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/</guid>
       <description>
@@ -47,7 +47,7 @@
     <item>
       <title>Theme: 安裝</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</link>
-      <pubDate>Fri, 02 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 02 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/install/</guid>
       <description>
@@ -118,7 +118,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: 客製化 CSS</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/style/</link>
-      <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Wed, 07 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/style/</guid>
       <description>
@@ -148,7 +148,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: 搜尋</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/search/</link>
-      <pubDate>Wed, 07 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Wed, 07 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/search/</guid>
       <description>
@@ -175,7 +175,7 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
     <item>
       <title>Theme: 客製化文件版型</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/custom-docs-layout/</link>
-      <pubDate>Tue, 13 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Tue, 13 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/custom-docs-layout/</guid>
       <description>
@@ -254,7 +254,7 @@ cascade:
     <item>
       <title>Theme: Short Code</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/short-code/</link>
-      <pubDate>Fri, 16 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Fri, 16 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/theme/documentation/docsy/short-code/</guid>
       <description>

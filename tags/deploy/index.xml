@@ -5,7 +5,7 @@
     <description>Recent content in Deploy on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
     <item>
       <title>Docs: 部署 Deploy</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/deploy/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/docs/deploy/</guid>
       <description>
@@ -54,7 +54,7 @@ Total in &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;6047&lt;/spa
     <item>
       <title>Docs: Github Page</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/deploy/github/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0000</pubDate>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
       
       <guid>https://hugo-for-newbie.kejyun.com/docs/deploy/github/</guid>
       <description>

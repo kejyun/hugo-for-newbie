@@ -1,0 +1,54 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Zzo</title>
+    <link>https://hugo-for-newbie.kejyun.com/tags/zzo/</link>
+    <description>Recent content in Zzo on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 19 May 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/zzo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Theme: Zzo</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/zzo/</link>
+      <pubDate>Wed, 19 May 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/zzo/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;標籤分類&lt;/li&gt;
+&lt;li&gt;相簿&lt;/li&gt;
+&lt;li&gt;投影片&lt;/li&gt;
+&lt;li&gt;Darkmode 背景顏色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-home.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-about.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-tags.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-gallery.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-presentation-list.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-presentation.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-article-list.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./images/zzo-cover-article-light.png&#34; alt=&#34;Zzo 封面照&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugo-theme-zzo/&#34;&gt;Hugo Theme Zzo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugo-theme-zzo/en/&#34;&gt;Zzo Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/zzossig/hugo-theme-zzo&#34;&gt;zzossig/hugo-theme-zzo: Make a blog with hugo zzo theme!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
