@@ -1,0 +1,59 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo 新手道場 – Feed</title>
+    <link>https://hugo-for-newbie.kejyun.com/categories/feed/</link>
+    <description>Recent content in Feed on Hugo 新手道場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 21 May 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://hugo-for-newbie.kejyun.com/categories/feed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Theme: Feed</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/stack/feed/</link>
+      <pubDate>Fri, 21 May 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/stack/feed/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;feed-類型&#34;&gt;Feed 類型&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目標&lt;/th&gt;
+&lt;th&gt;類型&lt;/th&gt;
+&lt;th&gt;網址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;全站&lt;/td&gt;
+&lt;td&gt;sitemap&lt;/td&gt;
+&lt;td&gt;http://localhost:1313/sitemap.xml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;全站&lt;/td&gt;
+&lt;td&gt;RSS&lt;/td&gt;
+&lt;td&gt;http://localhost:1313/index.xml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;文章&lt;/td&gt;
+&lt;td&gt;RSS&lt;/td&gt;
+&lt;td&gt;http://localhost:1313/p/index.xml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

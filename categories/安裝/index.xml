@@ -5,7 +5,7 @@
     <description>Recent content in 安裝 on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 11 Apr 2021 08:50:29 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 May 2021 08:50:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/categories/%E5%AE%89%E8%A3%9D/index.xml" rel="self" type="application/rss+xml" />
     
@@ -81,6 +81,34 @@ Error: Error building site: TOCSS: failed to transform &lt;span style=&#34;color
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.docsy.dev/docs/getting-started/&#34;&gt;Getting Started | Docsy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/kubernetes/contributor-site/issues/123&#34;&gt;[docsy] SCSS generation error · Issue #123 · kubernetes/contributor-site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Theme: 安裝</title>
+      <link>https://hugo-for-newbie.kejyun.com/theme/blog/stack/install/</link>
+      <pubDate>Fri, 21 May 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/theme/blog/stack/install/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
+&lt;p&gt;使用 hugo 指令開啟新的站台&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site my-hugo-sites
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;將 Stack 主題當作子模組加到 &lt;code&gt;themes/hugo-theme-stack&lt;/code&gt; 目錄&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;用子模組的用意是當主題版本有更新時，可以在子模組直接重新 &lt;code&gt;git pull&lt;/code&gt; 做更新，在版本控管上比較方便&lt;/p&gt;
+&lt;h2 id=&#34;設定-config-檔案&#34;&gt;設定 config 檔案&lt;/h2&gt;
+&lt;p&gt;Stack 主題的設定檔案是用 &lt;code&gt;yaml&lt;/code&gt; 格式的檔案去管理，所以可以先行移除 Hugo 預設的 &lt;code&gt;config.toml&lt;/code&gt; 檔案，然後將主題下面的部落格範例目錄 &lt;code&gt;themes/hugo-theme-stack/exampleSite&lt;/code&gt; 下方的檔案複製到 Hugo 網站根目錄，裡面會有 &lt;code&gt;config.yaml&lt;/code&gt; 的設定檔，及 Stack 的測試文章&lt;/p&gt;
+&lt;h2 id=&#34;測試&#34;&gt;測試&lt;/h2&gt;
+&lt;p&gt;設定完後就可以直接執行 hugo 指令開啟網站測試 &lt;code&gt;http://localhost:1313&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.stack.jimmycai.com/getting-started&#34;&gt;Getting Started - Hugo theme Stack&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
