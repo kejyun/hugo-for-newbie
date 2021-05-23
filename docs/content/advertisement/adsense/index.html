@@ -22,12 +22,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hugo-for-newbie.kejyun.com/docs/content/advertisement/adsense/" /><meta property="og:image" content="https://hugo-for-newbie.kejyun.com/images/featured-background.jpeg"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-04-11T08:50:29&#43;08:00" />
-<meta property="article:modified_time" content="2021-04-11T08:50:29&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-23T08:50:29&#43;08:00" />
 
 <meta itemprop="name" content="Adsense">
 <meta itemprop="description" content="Hugo 載入 Adsense 廣告，讓你的創作可以獲得收益"><meta itemprop="datePublished" content="2021-04-11T08:50:29&#43;08:00" />
-<meta itemprop="dateModified" content="2021-04-11T08:50:29&#43;08:00" />
-<meta itemprop="wordCount" content="115"><meta itemprop="image" content="https://hugo-for-newbie.kejyun.com/images/featured-background.jpeg"/>
+<meta itemprop="dateModified" content="2021-05-23T08:50:29&#43;08:00" />
+<meta itemprop="wordCount" content="129"><meta itemprop="image" content="https://hugo-for-newbie.kejyun.com/images/featured-background.jpeg"/>
 <meta itemprop="keywords" content="Hugo,Content,內文,Advertisement,廣告,Adsense," /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://hugo-for-newbie.kejyun.com/images/featured-background.jpeg"/>
 
@@ -132,7 +132,7 @@ if (!doNotTrack) {
     "author":"KeJyun",
     "creator":"KeJyun",
     
-    "dateModified":"2021-04-11T08:50:29\u002b08:00",
+    "dateModified":"2021-05-23T08:50:29\u002b08:00",
     "articleSection":"TechArticle"
 }
 </script>
@@ -154,7 +154,7 @@ if (!doNotTrack) {
 		"alternativeHeadline": "Adsense",
 		"dateCreated": "2021-04-11T08:50:29\u002b08:00",
 		"datePublished": "2021-04-11T08:50:29\u002b08:00",
-		"dateModified": "2021-04-11T08:50:29\u002b08:00",
+		"dateModified": "2021-05-23T08:50:29\u002b08:00",
 		"inLanguage": "zh",
 		"isFamilyFriendly": "true",
 		"copyrightYear": "2021",
@@ -198,7 +198,7 @@ if (!doNotTrack) {
 		],
 		"genre":["KJ"],
 		"articleSection": "KJ",
-		"articleBody": "建立廣告樣板 在客製化樣板中建立 layouts\/partials\/adsense-in-article.html 廣告樣板\n{{ if .Site.Params.adsense.client }} \u0026lt;script async src=\u0026#34;\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\u0026#34;\u0026gt;\u0026lt;\/script\u0026gt; \u0026lt;!-- 廣告 --\u0026gt; \u0026lt;ins class=\u0026#34;adsbygoogle\u0026#34; style=\u0026#34;display:block\u0026#34; data-ad-client=\u0026#34;{{.Site.Params.adsense.client}}\u0026#34; data-ad-slot=\u0026#34;{{.Site.Params.adsense.slot}}\u0026#34; data-ad-format=\u0026#34;auto\u0026#34; data-full-width-responsive=\u0026#34;true\u0026#34;\u0026gt;\u0026lt;\/ins\u0026gt; \u0026lt;script\u0026gt; (adsbygoogle = window.adsbygoogle || []).push({}); \u0026lt;\/script\u0026gt; {{ end }} 設定廣告代碼 在 config.toml 檔案中設定您的廣告代碼\n# 廣告 [params.adsense] client = \u0026#34;ca-pub-1990193713845546\u0026#34; slot = \u0026#34;8247872484\u0026#34; 文章內文廣告 文章內文指定位置加入廣告 This is the first paragraph. This is the second paragraph. \u0026lt;!--adsense--\u0026gt; This is the third paragraph. 解析文章內文塞入廣告 {{ replace .Content \u0026#34;\u0026lt;!--adsense--\u0026gt;\u0026#34; (partial \u0026#34;adsense-in-article.html\u0026#34; .) | safeHTML }} 這樣就可以看到文章內文有放入指定的廣告了\n文章置頂置底加入廣告 建立廣告樣板 在客製化樣板中建立 layouts\/partials\/adsense-article-top.html 及 layouts\/partials\/adsense-article-bottom.html 廣告樣板\n設定文章內文廣告樣板 在文章內文顯示的上下方直接載入廣告樣板即可\n\u0026lt;!-- 置頂廣告 --\u0026gt; {{ partial \u0026#34;partials\/adsense-article-top.html\u0026#34; . }} {{ replace .Content \u0026#34;\u0026lt;!--adsense--\u0026gt;\u0026#34; (partial \u0026#34;adsense-in-article.html\u0026#34; .) | safeHTML }} \u0026lt;!-- 置底廣告 --\u0026gt; {{ partial \u0026#34;partials\/adsense-article-bottom.html\u0026#34; . }} 參考資料  在 Hugo 文章中添加 Adsense 广告单元-阳明的博客|Kubernetes|Istio|Prometheus|Python|Golang|云原生  "
+		"articleBody": "建立廣告樣板 在客製化樣板中建立 layouts\/partials\/adsense-in-article.html 廣告樣板\n{{ if .Site.Params.adsense.client }} \u0026lt;script async src=\u0026#34;\/\/pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js\u0026#34;\u0026gt;\u0026lt;\/script\u0026gt; \u0026lt;!-- 廣告 --\u0026gt; \u0026lt;ins class=\u0026#34;adsbygoogle\u0026#34; style=\u0026#34;display:block\u0026#34; data-ad-client=\u0026#34;{{.Site.Params.adsense.client}}\u0026#34; data-ad-slot=\u0026#34;{{.Site.Params.adsense.slot}}\u0026#34; data-ad-format=\u0026#34;auto\u0026#34; data-full-width-responsive=\u0026#34;true\u0026#34;\u0026gt;\u0026lt;\/ins\u0026gt; \u0026lt;script\u0026gt; (adsbygoogle = window.adsbygoogle || []).push({}); \u0026lt;\/script\u0026gt; {{ end }} 設定廣告代碼 在 config.toml 檔案中設定您的廣告代碼\n# 廣告 [params.adsense] client = \u0026#34;ca-pub-1990193713845546\u0026#34; slot = \u0026#34;8247872484\u0026#34; 文章內文廣告 文章內文指定位置加入廣告 This is the first paragraph. This is the second paragraph. \u0026lt;!--adsense--\u0026gt; This is the third paragraph. 解析文章內文塞入廣告 {{ replace .Content \u0026#34;\u0026lt;!--adsense--\u0026gt;\u0026#34; (partial \u0026#34;adsense-in-article.html\u0026#34; .) | safeHTML }} 在 config.yaml 檔案中必須要設定允許解析出現 html 語法，這樣廣告代碼才能夠正常的被解析塞入\n# config.toml [markup] [markup.goldmark] [markup.goldmark.renderer] unsafe = true # config.yamlmarkup:goldmark:renderer:unsafe:true這樣就可以看到文章內文有放入指定的廣告了\n文章置頂置底加入廣告 建立廣告樣板 在客製化樣板中建立 layouts\/partials\/adsense-article-top.html 及 layouts\/partials\/adsense-article-bottom.html 廣告樣板\n設定文章內文廣告樣板 在文章內文顯示的上下方直接載入廣告樣板即可\n\u0026lt;!-- 置頂廣告 --\u0026gt; {{ partial \u0026#34;partials\/adsense-article-top.html\u0026#34; . }} {{ replace .Content \u0026#34;\u0026lt;!--adsense--\u0026gt;\u0026#34; (partial \u0026#34;adsense-in-article.html\u0026#34; .) | safeHTML }} \u0026lt;!-- 置底廣告 --\u0026gt; {{ partial \u0026#34;partials\/adsense-article-bottom.html\u0026#34; . }} 參考資料  在 Hugo 文章中添加 Adsense 广告单元-阳明的博客|Kubernetes|Istio|Prometheus|Python|Golang|云原生  "
 	}
 </script>
 
@@ -629,7 +629,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.1a93468dad9f31276dcd881e92c2a80d.json"
+  data-offline-search-index-json-src="/offline-search-index.4d93785266252a782e3e449f3206e9ae.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -665,7 +665,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.1a93468dad9f31276dcd881e92c2a80d.json"
+  data-offline-search-index-json-src="/offline-search-index.4d93785266252a782e3e449f3206e9ae.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -1484,7 +1484,18 @@ This is the second paragraph.
 This is the third paragraph.
 </code></pre></div><h3 id="解析文章內文塞入廣告">解析文章內文塞入廣告</h3>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ replace .Content &#34;<span style="color:#8f5902;font-style:italic">&lt;!--adsense--&gt;</span>&#34; (partial &#34;adsense-in-article.html&#34; .) | safeHTML }}
-</code></pre></div><p>這樣就可以看到文章內文有放入指定的廣告了</p>
+</code></pre></div><p>在 <code>config.yaml</code> 檔案中必須要設定允許解析出現 html 語法，這樣廣告代碼才能夠正常的被解析塞入</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#8f5902;font-style:italic"># config.toml</span>
+<span style="color:#000;font-weight:bold">[</span><span style="color:#000">markup</span><span style="color:#000;font-weight:bold">]</span>
+  <span style="color:#000;font-weight:bold">[</span><span style="color:#000">markup</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">goldmark</span><span style="color:#000;font-weight:bold">]</span>
+    <span style="color:#000;font-weight:bold">[</span><span style="color:#000">markup</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">goldmark</span><span style="color:#000;font-weight:bold">.</span><span style="color:#000">renderer</span><span style="color:#000;font-weight:bold">]</span>
+      <span style="color:#000">unsafe</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">true</span>
+</code></pre></div><div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#8f5902;font-style:italic"># config.yaml</span><span style="color:#f8f8f8;text-decoration:underline">
+</span><span style="color:#f8f8f8;text-decoration:underline"></span><span style="color:#204a87;font-weight:bold">markup</span><span style="color:#000;font-weight:bold">:</span><span style="color:#f8f8f8;text-decoration:underline">
+</span><span style="color:#f8f8f8;text-decoration:underline">    </span><span style="color:#204a87;font-weight:bold">goldmark</span><span style="color:#000;font-weight:bold">:</span><span style="color:#f8f8f8;text-decoration:underline">
+</span><span style="color:#f8f8f8;text-decoration:underline">        </span><span style="color:#204a87;font-weight:bold">renderer</span><span style="color:#000;font-weight:bold">:</span><span style="color:#f8f8f8;text-decoration:underline">
+</span><span style="color:#f8f8f8;text-decoration:underline">            </span><span style="color:#204a87;font-weight:bold">unsafe</span><span style="color:#000;font-weight:bold">:</span><span style="color:#f8f8f8;text-decoration:underline"> </span><span style="color:#204a87;font-weight:bold">true</span><span style="color:#f8f8f8;text-decoration:underline">
+</span></code></pre></div><p>這樣就可以看到文章內文有放入指定的廣告了</p>
 <h2 id="文章置頂置底加入廣告">文章置頂置底加入廣告</h2>
 <h3 id="建立廣告樣板-1">建立廣告樣板</h3>
 <p>在客製化樣板中建立 <code>layouts/partials/adsense-article-top.html</code> 及 <code>layouts/partials/adsense-article-bottom.html</code> 廣告樣板</p>
@@ -1558,7 +1569,7 @@ s.setAttribute('data-timestamp', +new Date());
 		
 
 		
-		<div class="text-muted mt-5 pt-3 border-top">最後修改 April 11, 2021
+		<div class="text-muted mt-5 pt-3 border-top">最後修改 May 23, 2021
 </div>
 </div>
 
