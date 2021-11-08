@@ -176,7 +176,7 @@ if (!doNotTrack) {
 		],
 		"genre":["KJ"],
 		"articleSection": "KJ",
-		"articleBody": "列印變數 \u0026lt;pre\u0026gt; \u0026lt;!-- 列印 .Site --\u0026gt; {{ printf \u0026#34;%#v\u0026#34; $.Site }} \u0026lt;!-- 列印 .Permalink --\u0026gt; {{ printf \u0026#34;%#v\u0026#34; .Permalink }} \u0026lt;!-- 列印 . 全部變數 --\u0026gt; {{ printf \u0026#34;%#v\u0026#34; . }} \u0026lt;\/pre\u0026gt; 列印指定變數內的所有資料 這裡的 . 指的是該變數的每一個數值的資料\n{{ range .Pages }} {{\/* The context, \u0026#34;.\u0026#34;, is now each one of the pages as it goes through the loop *\/}} {{ printf \u0026#34;%#v\u0026#34; . }} {{ end }} 參考資料  Template Debugging | Hugo  "
+		"articleBody": "列印變數 \u0026lt;pre\u0026gt; \u0026lt;!-- 列印 .Site --\u0026gt; {{ printf \u0026#34;%#v\u0026#34; $.Site }} \u0026lt;!-- 列印 .Permalink --\u0026gt; {{ printf \u0026#34;%#v\u0026#34; .Permalink }} \u0026lt;!-- 列印 . 全部變數 --\u0026gt; {{ printf \u0026#34;%#v\u0026#34; . }} \u0026lt;\/pre\u0026gt; 列印指定變數內的所有資料 這裡的 . 指的是該變數的每一個數值的資料\n{{ range .Pages }} {{\/* The context, \u0026#34;.\u0026#34;, is now each one of the pages as it goes through the loop *\/}} {{ printf \u0026#34;%#v\u0026#34; . }} {{ end }} \u0026lt;ul\u0026gt; {{ range $index, $element := .Pages -}} \u0026lt;li\u0026gt;{{ printf \u0026#34;%#v\u0026#34; $index }} : {{ printf \u0026#34;%#v\u0026#34; $element }}\u0026lt;\/li\u0026gt; {{ end }} \u0026lt;\/ul\u0026gt; 參考資料  Template Debugging | Hugo  "
 	}
 </script>
 
@@ -354,7 +354,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.4d93785266252a782e3e449f3206e9ae.json"
+  data-offline-search-index-json-src="/offline-search-index.7d17dafa634ee6cab6bf210f9f1c22f9.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -390,7 +390,7 @@ if (!doNotTrack) {
   aria-label="搜尋"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.4d93785266252a782e3e449f3206e9ae.json"
+  data-offline-search-index-json-src="/offline-search-index.7d17dafa634ee6cab6bf210f9f1c22f9.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -1160,6 +1160,11 @@ if (!doNotTrack) {
     {{/* The context, &#34;.&#34;, is now each one of the pages as it goes through the loop */}}
     {{ printf &#34;%#v&#34; . }}
 {{ end }}
+</code></pre></div><div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">ul</span><span style="color:#000;font-weight:bold">&gt;</span>
+  {{ range $index, $element := .Pages -}}
+    <span style="color:#000;font-weight:bold">&lt;</span><span style="color:#204a87;font-weight:bold">li</span><span style="color:#000;font-weight:bold">&gt;</span>{{ printf &#34;%#v&#34; $index }} : {{ printf &#34;%#v&#34; $element }}<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">li</span><span style="color:#000;font-weight:bold">&gt;</span>
+  {{ end }}
+<span style="color:#000;font-weight:bold">&lt;/</span><span style="color:#204a87;font-weight:bold">ul</span><span style="color:#000;font-weight:bold">&gt;</span>
 </code></pre></div><h2 id="參考資料">參考資料</h2>
 <ul>
 <li><a href="https://gohugo.io/templates/template-debugging/">Template Debugging | Hugo</a></li>
