@@ -5,7 +5,7 @@
     <description>Recent content in Hugo on Hugo 新手道場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 21 May 2021 08:50:29 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Nov 2021 03:11:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://hugo-for-newbie.kejyun.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -1123,6 +1123,38 @@ Runs on **bare metal** in the **cloud**!
     </item>
     
     <item>
+      <title>Docs: Failed to get JSON resource: error-remote-getjson</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/debug/error-remote-getjson/</link>
+      <pubDate>Thu, 18 Nov 2021 03:11:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/debug/error-remote-getjson/</guid>
+      <description>
+        
+        
+        &lt;p&gt;在啟動 Hugo 時，會發現有無法取的 Twitter 及 Instagram 資源的狀況，導致無法測試檢視草稿文章&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm run start                                                                     17:37:48
+
+&amp;gt; start
+&amp;gt; hugo server --disableFastRender
+
+Start building sites … 
+ERROR 2021/11/18 17:41:36 Failed to get JSON resource &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;https://api.twitter.com/1/statuses/oembed.json?id=1181536841666682880&amp;amp;dnt=false&amp;#34;&lt;/span&gt;: Failed to retrieve remote file: Not Found
+If you feel that this should not be logged as an ERROR, you can ignore it by adding this to your site config:
+&lt;span style=&#34;color:#000&#34;&gt;ignoreErrors&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;error-remote-getjson&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
+Built in &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1452&lt;/span&gt; ms
+Error: Error building site: logged &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; error&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;s&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以選擇忽略這樣的錯誤，在 &lt;code&gt;config.toml&lt;/code&gt; 中加入 &lt;code&gt;error-remote-getjson&lt;/code&gt; 去忽略這個錯誤，這樣就可以正常啟動 hugo 測試站了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# config.toml&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;ignoreErrors&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;error-remote-getjson&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wuhao.ink/zh-cn/hugobugs/&#34;&gt;Hugo踩坑指南 | 吴昊&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Theme: 安裝</title>
       <link>https://hugo-for-newbie.kejyun.com/theme/blog/stack/install/</link>
       <pubDate>Fri, 21 May 2021 08:50:29 +0800</pubDate>
@@ -1710,6 +1742,52 @@ Total in &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;6047&lt;/spa
     </item>
     
     <item>
+      <title>Docs: Gitlab Page</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/deploy/gitlab/</link>
+      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/deploy/gitlab/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Gitlab 與 Github 都有提供靜態空間頁面給我們放上靜態的 html, css, js 檔案，可以變成一個靜態頁面供網友存取，但 Github pages 的空間如果要變成私密的方式，不想要讓其他人可以直接下載你整包的網站 html 的話，只能 &lt;code&gt;付費&lt;/code&gt; 才能夠有這個功能，Gitlab pages 則是免費就可以使用私密的方式架設你的網站，&lt;code&gt;不需要額外付費&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Hugo 產生出來的靜態檔案放在 &lt;code&gt;public&lt;/code&gt; 目錄，可以將 Gitlab Page 的目錄指定到 Repository 的 &lt;code&gt;public&lt;/code&gt; 中&lt;/p&gt;
+&lt;h2 id=&#34;設定-gitlab-page-部署設定檔-gitlab-ciyml&#34;&gt;設定 Gitlab Page 部署設定檔 .gitlab-ci.yml&lt;/h2&gt;
+&lt;p&gt;在 Repository 跟目錄建立 &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; 檔案，在 &lt;code&gt;artifacts&lt;/code&gt; 設定 Gitlab pages 的目錄，並設定只有在 &lt;code&gt;main&lt;/code&gt; 的分支才會部署&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# .gitlab-ci.yml&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;image&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;alpine:latest&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;pages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;stage&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;deploy&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;script&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;    &lt;/span&gt;- &lt;span style=&#34;color:#000&#34;&gt;echo &amp;#39;Do nothing&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# gitlab page 目錄&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;artifacts&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;paths&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;      &lt;/span&gt;- &lt;span style=&#34;color:#000&#34;&gt;public&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# 只有在 main 分支的 public 目錄才會被部署&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;  &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;only&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;    &lt;/span&gt;- &lt;span style=&#34;color:#000&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;建立-hugo-靜態檔案&#34;&gt;建立 Hugo 靜態檔案&lt;/h2&gt;
+&lt;p&gt;使用指令建立最後的 hugo 靜態頁面檔案，建立的檔案會放在 &lt;code&gt;public&lt;/code&gt; 目錄中&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ hugo --gc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;repository-push-到-gitlab-部署&#34;&gt;Repository Push 到 Gitlab 部署&lt;/h2&gt;
+&lt;p&gt;在 Hugo 網站的 Repository 推到 Gitlab 後，Gitlab 會針對 &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; 的部署設定進行 Gitlab Page 的部署&lt;/p&gt;
+&lt;p&gt;到 Repo 的 &lt;code&gt;CI/CD &amp;gt; Piplines&lt;/code&gt; 可以看到會立即執行部署的指令，看到狀態變更為 &lt;code&gt;passed&lt;/code&gt; 就表示執行成功了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/gitlab/gitlab-pages-1.png&#34; alt=&#34;Gitlab page&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;檢視部署的-gitlab-pages&#34;&gt;檢視部署的 Gitlab Pages&lt;/h2&gt;
+&lt;p&gt;在 Repo 的 &lt;code&gt;Settings &amp;gt; Pages&lt;/code&gt; 那邊可以看到你的 Gitlab Pages 的網址，預設是 &lt;code&gt;https://&amp;lt;帳號&amp;gt;.gitlab.io/&amp;lt;專案位置&amp;gt;&lt;/code&gt;，從這裡就可以看到你部署上去的頁面了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../images/gitlab/gitlab-pages-2.png&#34; alt=&#34;Gitlab page&#34;&gt;&lt;/p&gt;
+&lt;p&gt;詳細的 &lt;code&gt;Gitlab Page 自訂網址&lt;/code&gt; 及 &lt;code&gt;存取權限&lt;/code&gt; 可以參考 &lt;a href=&#34;https://dev.kejyun.com/article/2021/08/gitlab-page-2021/&#34;&gt;使用 Gitlab page 建立私密的靜態部落格網站&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.kejyun.com/article/2021/08/gitlab-page-2021/&#34;&gt;使用 Gitlab page 建立私密的靜態部落格網站&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: 建立網站</title>
       <link>https://hugo-for-newbie.kejyun.com/docs/start/create/</link>
       <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
@@ -2143,54 +2221,6 @@ Press Ctrl+C to stop
 &lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.stack.jimmycai.com/writing&#34;&gt;Writing - Hugo theme Stack&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Theme: hugonews</title>
-      <link>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
-      
-      <guid>https://hugo-for-newbie.kejyun.com/theme/news/hugonews/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;./images/hugonews-cover-home.png&#34; alt=&#34;hugonews 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/hugonews-cover-sites.png&#34; alt=&#34;hugonews 封面照&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/hugonews/&#34;&gt;Hugonews | Hugo Themes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/hugonews/&#34;&gt;hugonews Theme Demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spaghettiwews/hugonews&#34;&gt;spaghettiwews/hugonews: hugo theme (based on https://news.ycombinator.com) for https://bookmarks.wews.co.zw&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Theme: Reveal</title>
-      <link>https://hugo-for-newbie.kejyun.com/theme/presentation/reveal/</link>
-      <pubDate>Sun, 11 Apr 2021 08:50:29 +0800</pubDate>
-      
-      <guid>https://hugo-for-newbie.kejyun.com/theme/presentation/reveal/</guid>
-      <description>
-        
-        
-        &lt;h2 id=&#34;示意圖&#34;&gt;示意圖&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;./images/reveal-cover-home.png&#34; alt=&#34;Reveal 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/reveal-cover-config.png&#34; alt=&#34;Reveal 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/reveal-cover-custom-slide.png&#34; alt=&#34;Reveal 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/reveal-cover-custom-css.png&#34; alt=&#34;Reveal 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/reveal-cover-custom-js.png&#34; alt=&#34;Reveal 封面照&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/reveal-cover-markdown.png&#34; alt=&#34;Reveal 封面照&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/reveal-hugo/&#34;&gt;Reveal Hugo | Hugo Themes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io/theme/reveal-hugo/#/&#34;&gt;Reveal Theme Demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/dzello/reveal-hugo&#34;&gt;dzello/reveal-hugo: 📽️ Create rich HTML-based presentations with Hugo and Reveal.js&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

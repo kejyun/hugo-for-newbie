@@ -15,5 +15,37 @@
       
     
     
+    <item>
+      <title>Docs: Failed to get JSON resource: error-remote-getjson</title>
+      <link>https://hugo-for-newbie.kejyun.com/docs/debug/error-remote-getjson/</link>
+      <pubDate>Thu, 18 Nov 2021 03:11:29 +0800</pubDate>
+      
+      <guid>https://hugo-for-newbie.kejyun.com/docs/debug/error-remote-getjson/</guid>
+      <description>
+        
+        
+        &lt;p&gt;在啟動 Hugo 時，會發現有無法取的 Twitter 及 Instagram 資源的狀況，導致無法測試檢視草稿文章&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ npm run start                                                                     17:37:48
+
+&amp;gt; start
+&amp;gt; hugo server --disableFastRender
+
+Start building sites … 
+ERROR 2021/11/18 17:41:36 Failed to get JSON resource &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;https://api.twitter.com/1/statuses/oembed.json?id=1181536841666682880&amp;amp;dnt=false&amp;#34;&lt;/span&gt;: Failed to retrieve remote file: Not Found
+If you feel that this should not be logged as an ERROR, you can ignore it by adding this to your site config:
+&lt;span style=&#34;color:#000&#34;&gt;ignoreErrors&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;error-remote-getjson&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;]&lt;/span&gt;
+Built in &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1452&lt;/span&gt; ms
+Error: Error building site: logged &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt; error&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;(&lt;/span&gt;s&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以選擇忽略這樣的錯誤，在 &lt;code&gt;config.toml&lt;/code&gt; 中加入 &lt;code&gt;error-remote-getjson&lt;/code&gt; 去忽略這個錯誤，這樣就可以正常啟動 hugo 測試站了&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# config.toml&lt;/span&gt;
+&lt;span style=&#34;color:#000&#34;&gt;ignoreErrors&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;error-remote-getjson&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wuhao.ink/zh-cn/hugobugs/&#34;&gt;Hugo踩坑指南 | 吴昊&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
